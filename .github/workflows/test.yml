@@ -1,0 +1,29 @@
+name: ReframeCore tests
+on: [push, workflow_dispatch]
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    container: swift:5.9
+    defaults:
+      run:
+        working-directory: Packages/ReframeCore
+    steps:
+      - uses: actions/checkout@v4
+      - name: swift test
+        run: swift test 2>&1 | tee swift-test.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: swift-test-log
+          path: Packages/ReframeCore/swift-test.log
+
+  macos:
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: Packages/ReframeCore
+    steps:
+      - uses: actions/checkout@v4
+      - name: swift test
+        run: swift test 2>&1 | tee swift-test.log
