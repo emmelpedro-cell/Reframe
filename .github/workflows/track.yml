@@ -1,6 +1,28 @@
 name: Rastrear videos
 on:
   workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Nome do Release com os videos (deixe vazio para usar os videos do repositorio)'
+        required: false
+        default: ''
+      preset:
+        description: 'Estilo do recorte'
+        type: choice
+        default: suave
+        options:
+          - suave
+          - padrao
+          - oneeuro
+          - rapido
+      aspect:
+        description: 'Formato da saida'
+        type: choice
+        default: '9:16'
+        options:
+          - '9:16'
+          - '4:5'
+          - '1:1'
   push:
     paths:
       - '*.mov'
@@ -25,6 +47,11 @@ jobs:
         run: swift build -c release --product reframe
       - name: Rastrear e renderizar
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.release_tag }}
+          PRESET: ${{ inputs.preset }}
+          ASPECT: ${{ inputs.aspect }}
         run: bash Packages/ReframeCore/Scripts/ci-run.sh
       - name: Publicar
         if: always()
