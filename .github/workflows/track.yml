@@ -8,6 +8,7 @@ on:
       - '*.mp4'
       - '*.MP4'
       - 'videos/**'
+      - 'ReframeCore-M1.zip'
 
 permissions:
   contents: write
@@ -22,20 +23,9 @@ jobs:
       - name: Compilar
         working-directory: Packages/ReframeCore
         run: swift build -c release --product reframe
-      - name: Rastrear
+      - name: Rastrear e renderizar
         shell: bash
-        run: |
-          set +e
-          mkdir -p out
-          BIN="$PWD/Packages/ReframeCore/.build/release/reframe"
-          shopt -s nullglob nocaseglob
-          for f in *.mov *.mp4 *.m4v videos/*.mov videos/*.mp4 videos/*.m4v; do
-            n=$(basename "$f"); n="${n%.*}"
-            echo "== $f"
-            "$BIN" track "$f" --output "out/$n.json" --debug-video "out/$n.debug.mp4" --crop --cpu-only 2>&1 | tee "out/$n.log"
-          done
-          ls -l out
-          exit 0
+        run: bash Packages/ReframeCore/Scripts/ci-run.sh
       - name: Publicar
         if: always()
         shell: bash
