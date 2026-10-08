@@ -1,6 +1,9 @@
 name: ReframeCore tests
 on: [push, workflow_dispatch]
 
+permissions:
+  contents: write
+
 jobs:
   linux:
     runs-on: ubuntu-latest
@@ -20,8 +23,26 @@ jobs:
         if: always()
         shell: bash
         run: |
-          grep -E "Executed [0-9]+ tests" Packages/ReframeCore/swift-test.log | tail -1 | while IFS= read -r l; do echo "::notice::linux: $l"; done
-          grep -E "error:|failed" Packages/ReframeCore/swift-test.log | head -15 | while IFS= read -r l; do echo "::error::${l:0:400}"; done
+          set +e
+          L=Packages/ReframeCore/swift-test.log
+          grep -E "Executed [0-9]+ tests" $L | tail -1 | while IFS= read -r l; do echo "::notice::linux: $l"; done
+          grep -E "error:|failed" $L | head -10 | while IFS= read -r l; do echo "::error::${l:0:300}"; done
+          exit 0
+      - name: Publicar log
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          mkdir -p /tmp/ci-log && cd /tmp/ci-log
+          { echo "== linux $(date -u) =="; swift --version 2>&1; uname -a; echo "== swift-test.log =="; cat "$GITHUB_WORKSPACE/Packages/ReframeCore/swift-test.log"; } > linux.log 2>&1
+          git init -q
+          git checkout -q -b ci-logs-linux
+          git add linux.log
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -q -m "log linux ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ci-logs-linux
+          exit 0
 
   macos:
     runs-on: macos-14
@@ -37,5 +58,23 @@ jobs:
         if: always()
         shell: bash
         run: |
-          grep -E "Executed [0-9]+ tests" Packages/ReframeCore/swift-test.log | tail -1 | while IFS= read -r l; do echo "::notice::macos: $l"; done
-          grep -E "error:|failed" Packages/ReframeCore/swift-test.log | head -15 | while IFS= read -r l; do echo "::error::${l:0:400}"; done
+          set +e
+          L=Packages/ReframeCore/swift-test.log
+          grep -E "Executed [0-9]+ tests" $L | tail -1 | while IFS= read -r l; do echo "::notice::macos: $l"; done
+          grep -E "error:|failed" $L | head -10 | while IFS= read -r l; do echo "::error::${l:0:300}"; done
+          exit 0
+      - name: Publicar log
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          mkdir -p /tmp/ci-log && cd /tmp/ci-log
+          { echo "== macos $(date -u) =="; swift --version 2>&1; xcodebuild -version 2>&1; sw_vers; uname -m; echo "== swift-test.log =="; cat "$GITHUB_WORKSPACE/Packages/ReframeCore/swift-test.log"; } > macos.log 2>&1
+          git init -q
+          git checkout -q -b ci-logs-macos
+          git add macos.log
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -q -m "log macos ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ci-logs-macos
+          exit 0
