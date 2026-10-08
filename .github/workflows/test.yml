@@ -5,25 +5,45 @@ jobs:
   linux:
     runs-on: ubuntu-latest
     container: swift:5.9
-    defaults:
-      run:
-        working-directory: Packages/ReframeCore
     steps:
       - uses: actions/checkout@v4
+      - name: Abrir o zip
+        shell: bash
+        run: |
+          apt-get update && apt-get install -y unzip
+          unzip -q ReframeCore-M1.zip
       - name: swift test
-        run: swift test 2>&1 | tee swift-test.log
-      - uses: actions/upload-artifact@v4
+        shell: bash
+        working-directory: Packages/ReframeCore
+        run: swift test 2>&1 | tee swift-test.log; exit ${PIPESTATUS[0]}
+      - name: Resumo
         if: always()
-        with:
-          name: swift-test-log
-          path: Packages/ReframeCore/swift-test.log
+        shell: bash
+        run: |
+          echo "## linux" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -nE "error:|failed|Executed|esperado" Packages/ReframeCore/swift-test.log | head -80 >> "$GITHUB_STEP_SUMMARY" || true
+          echo '--- fim do log ---' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 40 Packages/ReframeCore/swift-test.log >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
   macos:
     runs-on: macos-14
-    defaults:
-      run:
-        working-directory: Packages/ReframeCore
     steps:
       - uses: actions/checkout@v4
+      - name: Abrir o zip
+        run: unzip -q ReframeCore-M1.zip
       - name: swift test
-        run: swift test 2>&1 | tee swift-test.log
+        shell: bash
+        working-directory: Packages/ReframeCore
+        run: swift test 2>&1 | tee swift-test.log; exit ${PIPESTATUS[0]}
+      - name: Resumo
+        if: always()
+        shell: bash
+        run: |
+          echo "## macos" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -nE "error:|failed|Executed|esperado" Packages/ReframeCore/swift-test.log | head -80 >> "$GITHUB_STEP_SUMMARY" || true
+          echo '--- fim do log ---' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 40 Packages/ReframeCore/swift-test.log >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
