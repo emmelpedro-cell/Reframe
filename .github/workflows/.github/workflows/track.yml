@@ -1,0 +1,52 @@
+name: Rastrear videos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '*.mov'
+      - '*.MOV'
+      - '*.mp4'
+      - '*.MP4'
+      - 'videos/**'
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Abrir o zip
+        run: unzip -q ReframeCore-M1.zip
+      - name: Compilar
+        working-directory: Packages/ReframeCore
+        run: swift build -c release --product reframe
+      - name: Rastrear
+        shell: bash
+        run: |
+          set +e
+          mkdir -p out
+          BIN="$PWD/Packages/ReframeCore/.build/release/reframe"
+          shopt -s nullglob nocaseglob
+          for f in *.mov *.mp4 *.m4v videos/*.mov videos/*.mp4 videos/*.m4v; do
+            n=$(basename "$f"); n="${n%.*}"
+            echo "== $f"
+            "$BIN" track "$f" --output "out/$n.json" --debug-video "out/$n.debug.mp4" --crop --cpu-only 2>&1 | tee "out/$n.log"
+          done
+          ls -l out
+          exit 0
+      - name: Publicar
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          cd out || exit 0
+          git init -q
+          git checkout -q -b ci-tracking
+          git add -A
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -q -m "tracking ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ci-tracking
+          exit 0
