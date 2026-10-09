@@ -1,0 +1,34 @@
+name: App iPhone
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'ReframeCore-M1.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  app:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Abrir o zip
+        run: unzip -q ReframeCore-M1.zip
+      - name: Compilar o app e tirar prints
+        shell: bash
+        run: bash App/ci-app.sh
+      - name: Publicar
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          cd out-app || exit 0
+          git init -q
+          git checkout -q -b ci-app
+          git add -A
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -q -m "app ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ci-app
+          exit 0
