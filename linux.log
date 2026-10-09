@@ -1,0 +1,887 @@
+== linux Fri Oct  9 09:37:56 UTC 2026 ==
+Swift version 5.9.2 (swift-5.9.2-RELEASE)
+Target: x86_64-unknown-linux-gnu
+Linux 9e7e7792d5a4 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+== swift-test.log ==
+Building for debugging...
+[0/12] Copying Fixtures
+[2/21] Emitting module ReframeCore
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:29:16: warning: stored property 'boundingBox' of 'Sendable'-conforming struct 'TrackingPoint' has non-sendable type 'CGRect'
+    public let boundingBox: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[3/23] Compiling ReframeCore CropPoint.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:29:16: warning: stored property 'boundingBox' of 'Sendable'-conforming struct 'TrackingPoint' has non-sendable type 'CGRect'
+    public let boundingBox: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[4/23] Compiling ReframeCore ReframeSettings.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:29:16: warning: stored property 'boundingBox' of 'Sendable'-conforming struct 'TrackingPoint' has non-sendable type 'CGRect'
+    public let boundingBox: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[5/23] Compiling ReframeCore TrackingPoint.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:29:16: warning: stored property 'boundingBox' of 'Sendable'-conforming struct 'TrackingPoint' has non-sendable type 'CGRect'
+    public let boundingBox: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/ReframeCore/Models/TrackingPoint.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[6/23] Compiling ReframeCore ReframePipeline.swift
+[7/23] Compiling ReframeCore ReframeEngine.swift
+[8/23] Compiling ReframeCore CriticallyDampedSpring.swift
+[9/23] Compiling ReframeCore OneEuroFilter.swift
+[10/23] Compiling ReframeCore CompositionRules.swift
+[11/23] Compiling ReframeCore ReframeMetrics.swift
+[12/23] Compiling ReframeCore CropGeometry.swift
+[14/25] Wrapping AST for ReframeCore for debugging
+[16/50] Emitting module ReframeCoreTests
+[17/53] Compiling TrackingKit BoxMath.swift
+[18/53] Compiling TrackingKit DisplayMapping.swift
+[19/53] Compiling TrackingKit Timestamps.swift
+[20/53] Compiling TrackingKit VisionCoordinates.swift
+[21/53] Compiling TrackingKit SubjectSelector.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:21:16: warning: stored property 'box' of 'Sendable'-conforming struct 'TrackedFrame' has non-sendable type 'CGRect?'
+    public let box: CGRect?
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:42:29: warning: stored property 'lastBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    public private(set) var lastBox: CGRect?
+                            ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:47:17: warning: stored property 'challengerBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var challengerBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:52:17: warning: stored property 'confirmedBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var confirmedBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:59:17: warning: stored property 'pendingHint' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGPoint?'
+    private var pendingHint: CGPoint?
+                ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:71:16: warning: stored property 'subjectHint' of 'Sendable'-conforming struct 'TrackingSettings' has non-sendable type 'CGPoint?'
+    public var subjectHint: CGPoint? = nil
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[22/53] Compiling ReframeCoreTests ReframePipelineTests.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:21:16: warning: stored property 'box' of 'Sendable'-conforming struct 'TrackedFrame' has non-sendable type 'CGRect?'
+    public let box: CGRect?
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:42:29: warning: stored property 'lastBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    public private(set) var lastBox: CGRect?
+                            ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:47:17: warning: stored property 'challengerBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var challengerBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:52:17: warning: stored property 'confirmedBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var confirmedBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:59:17: warning: stored property 'pendingHint' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGPoint?'
+    private var pendingHint: CGPoint?
+                ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:71:16: warning: stored property 'subjectHint' of 'Sendable'-conforming struct 'TrackingSettings' has non-sendable type 'CGPoint?'
+    public var subjectHint: CGPoint? = nil
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[23/53] Compiling ReframeCoreTests SpringTests.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:21:16: warning: stored property 'box' of 'Sendable'-conforming struct 'TrackedFrame' has non-sendable type 'CGRect?'
+    public let box: CGRect?
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:42:29: warning: stored property 'lastBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    public private(set) var lastBox: CGRect?
+                            ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:47:17: warning: stored property 'challengerBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var challengerBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:52:17: warning: stored property 'confirmedBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var confirmedBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:59:17: warning: stored property 'pendingHint' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGPoint?'
+    private var pendingHint: CGPoint?
+                ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:71:16: warning: stored property 'subjectHint' of 'Sendable'-conforming struct 'TrackingSettings' has non-sendable type 'CGPoint?'
+    public var subjectHint: CGPoint? = nil
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[24/53] Compiling ReframeCoreTests TestSupport.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:21:16: warning: stored property 'box' of 'Sendable'-conforming struct 'TrackedFrame' has non-sendable type 'CGRect?'
+    public let box: CGRect?
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:42:29: warning: stored property 'lastBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    public private(set) var lastBox: CGRect?
+                            ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:47:17: warning: stored property 'challengerBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var challengerBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:52:17: warning: stored property 'confirmedBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var confirmedBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:59:17: warning: stored property 'pendingHint' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGPoint?'
+    private var pendingHint: CGPoint?
+                ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:71:16: warning: stored property 'subjectHint' of 'Sendable'-conforming struct 'TrackingSettings' has non-sendable type 'CGPoint?'
+    public var subjectHint: CGPoint? = nil
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[25/57] Compiling TrackingKit PersonPreview.swift
+[26/57] Compiling TrackingKit TrackingPipeline.swift
+[27/57] Compiling TrackingKit VideoFrameReader.swift
+[28/57] Compiling TrackingKit VisionComponents.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[36/57] Compiling TrackingKit CommandLineOptions.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[37/57] Compiling TrackingKit TrackingReport.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:9:16: warning: stored property 'box' of 'Sendable'-conforming struct 'Observation' has non-sendable type 'CGRect'
+    public let box: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[38/57] Compiling TrackingKit RenderPlanning.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:9:16: warning: stored property 'box' of 'Sendable'-conforming struct 'Observation' has non-sendable type 'CGRect'
+    public let box: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[39/57] Compiling TrackingKit VerticalRenderer.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:9:16: warning: stored property 'box' of 'Sendable'-conforming struct 'Observation' has non-sendable type 'CGRect'
+    public let box: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[40/57] Compiling TrackingKit Observation.swift
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:9:16: warning: stored property 'box' of 'Sendable'-conforming struct 'Observation' has non-sendable type 'CGRect'
+    public let box: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[41/57] Emitting module TrackingKit
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:21:16: warning: stored property 'subjectAt' of 'Sendable'-conforming struct 'TrackCommandOptions' has non-sendable type 'CGPoint?'
+    public var subjectAt: CGPoint?
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Output/CommandLineOptions.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:9:16: warning: stored property 'box' of 'Sendable'-conforming struct 'Observation' has non-sendable type 'CGRect'
+    public let box: CGRect
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/Observation.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:21:16: warning: stored property 'box' of 'Sendable'-conforming struct 'TrackedFrame' has non-sendable type 'CGRect?'
+    public let box: CGRect?
+               ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:42:29: warning: stored property 'lastBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    public private(set) var lastBox: CGRect?
+                            ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:47:17: warning: stored property 'challengerBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var challengerBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:52:17: warning: stored property 'confirmedBox' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGRect?'
+    private var confirmedBox: CGRect?
+                ^
+Foundation.CGRect:1:15: note: struct 'CGRect' does not conform to the 'Sendable' protocol
+public struct CGRect {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/Selection/SubjectTracker.swift:59:17: warning: stored property 'pendingHint' of 'Sendable'-conforming struct 'SubjectTracker' has non-sendable type 'CGPoint?'
+    private var pendingHint: CGPoint?
+                ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:71:16: warning: stored property 'subjectHint' of 'Sendable'-conforming struct 'TrackingSettings' has non-sendable type 'CGPoint?'
+    public var subjectHint: CGPoint? = nil
+               ^
+Foundation.CGPoint:1:15: note: struct 'CGPoint' does not conform to the 'Sendable' protocol
+public struct CGPoint {
+              ^
+/__w/Reframe/Reframe/Packages/ReframeCore/Sources/TrackingKit/TrackingSettings.swift:1:1: remark: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'Foundation'
+import Foundation
+^
+@preconcurrency 
+[43/59] Wrapping AST for TrackingKit for debugging
+[45/70] Compiling TrackingKitTests TrackingReportTests.swift
+[48/70] Compiling TrackingKitTests SubjectSelectorTests.swift
+[49/70] Compiling TrackingKitTests SubjectTrackerTests.swift
+[50/70] Compiling TrackingKitTests TimestampTests.swift
+[51/71] Compiling ReframeCLI main.swift
+[53/72] Emitting module ReframeCLI
+[56/74] Emitting module TrackingKitTests
+[57/76] Wrapping AST for ReframeCoreTests for debugging
+[58/76] Wrapping AST for ReframeCLI for debugging
+[60/76] Compiling TrackingKitTests VisionIntegrationTests.swift
+[61/76] Compiling TrackingKitTests resource_bundle_accessor.swift
+[63/76] Linking reframe
+[65/76] Compiling TrackingKitTests CommandLineOptionsTests.swift
+[66/76] Compiling TrackingKitTests CoordinateTests.swift
+[67/76] Compiling TrackingKitTests RenderIntegrationTests.swift
+[68/76] Compiling TrackingKitTests RenderPlanningTests.swift
+[72/78] /__w/Reframe/Reframe/Packages/ReframeCore/.build/x86_64-unknown-linux-gnu/debug/ReframeCorePackageDiscoveredTests.derived/all-discovered-tests.swift
+[73/78] Wrapping AST for TrackingKitTests for debugging
+[75/82] Compiling ReframeCorePackageDiscoveredTests all-discovered-tests.swift
+[76/82] Compiling ReframeCorePackageDiscoveredTests ReframeCoreTests.swift
+[77/82] Emitting module ReframeCorePackageDiscoveredTests
+[78/82] Compiling ReframeCorePackageDiscoveredTests TrackingKitTests.swift
+[80/84] /__w/Reframe/Reframe/Packages/ReframeCore/.build/x86_64-unknown-linux-gnu/debug/ReframeCorePackageTests.derived/runner.swift
+[81/84] Wrapping AST for ReframeCorePackageDiscoveredTests for debugging
+[83/86] Emitting module ReframeCorePackageTests
+[84/86] Compiling ReframeCorePackageTests runner.swift
+[86/88] Wrapping AST for ReframeCorePackageTests for debugging
+[87/88] Linking ReframeCorePackageTests.xctest
+Build complete! (7.60s)
+Test Suite 'All tests' started at 2026-10-09 09:37:55.158
+Test Suite 'debug.xctest' started at 2026-10-09 09:37:55.159
+Test Suite 'ABComparisonTests' started at 2026-10-09 09:37:55.159
+Test Case 'ABComparisonTests.testSideBySideComparisonPrintsMetricsAndBothPipelinesStayValid' started at 2026-10-09 09:37:55.159
+AB|stationaryJitter|baseline|raw|meanSubjectError=0.004854|meanSubjectErrorInCropWidths=0.015341|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=2.000000
+AB|stationaryJitter|oneEuro|raw|meanSubjectError=0.004854|meanSubjectErrorInCropWidths=0.015341|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=2.000000
+AB|stationaryJitter|baseline|truth|meanSubjectError=0.001331|meanSubjectErrorInCropWidths=0.004207|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=0.000000
+AB|stationaryJitter|oneEuro|truth|meanSubjectError=0.001331|meanSubjectErrorInCropWidths=0.004207|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=0.000000
+AB|walkClean|baseline|raw|meanSubjectError=0.003774|meanSubjectErrorInCropWidths=0.011928|insideCropRatio=1.000000|maxSpeed=0.093347|maxAcceleration=0.720525|jerkRMS=1.045008|directionChanges=0.000000|apparentLag=0.100000
+AB|walkClean|oneEuro|raw|meanSubjectError=0.008912|meanSubjectErrorInCropWidths=0.028167|insideCropRatio=1.000000|maxSpeed=0.093820|maxAcceleration=0.724836|jerkRMS=1.051335|directionChanges=0.000000|apparentLag=0.200000
+AB|walkClean|baseline|truth|meanSubjectError=0.003774|meanSubjectErrorInCropWidths=0.011928|insideCropRatio=1.000000|maxSpeed=0.093347|maxAcceleration=0.720525|jerkRMS=1.045008|directionChanges=0.000000|apparentLag=0.100000
+AB|walkClean|oneEuro|truth|meanSubjectError=0.008912|meanSubjectErrorInCropWidths=0.028167|insideCropRatio=1.000000|maxSpeed=0.093820|maxAcceleration=0.724836|jerkRMS=1.051335|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisy|baseline|raw|meanSubjectError=0.007018|meanSubjectErrorInCropWidths=0.022181|insideCropRatio=1.000000|maxSpeed=0.095378|maxAcceleration=0.664679|jerkRMS=2.344094|directionChanges=0.000000|apparentLag=0.100000
+AB|walkNoisy|oneEuro|raw|meanSubjectError=0.009599|meanSubjectErrorInCropWidths=0.030339|insideCropRatio=1.000000|maxSpeed=0.093294|maxAcceleration=0.713987|jerkRMS=1.134667|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisy|baseline|truth|meanSubjectError=0.004855|meanSubjectErrorInCropWidths=0.015345|insideCropRatio=1.000000|maxSpeed=0.095378|maxAcceleration=0.664679|jerkRMS=2.344094|directionChanges=0.000000|apparentLag=0.100000
+AB|walkNoisy|oneEuro|truth|meanSubjectError=0.009477|meanSubjectErrorInCropWidths=0.029952|insideCropRatio=1.000000|maxSpeed=0.093294|maxAcceleration=0.713987|jerkRMS=1.134667|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisyHeavy|baseline|raw|meanSubjectError=0.015621|meanSubjectErrorInCropWidths=0.049369|insideCropRatio=1.000000|maxSpeed=0.100863|maxAcceleration=0.755280|jerkRMS=6.652737|directionChanges=0.000000|apparentLag=0.033333
+AB|walkNoisyHeavy|oneEuro|raw|meanSubjectError=0.016545|meanSubjectErrorInCropWidths=0.052289|insideCropRatio=1.000000|maxSpeed=0.080377|maxAcceleration=0.767518|jerkRMS=2.038634|directionChanges=0.000000|apparentLag=0.133333
+AB|walkNoisyHeavy|baseline|truth|meanSubjectError=0.003649|meanSubjectErrorInCropWidths=0.011532|insideCropRatio=1.000000|maxSpeed=0.100863|maxAcceleration=0.755280|jerkRMS=6.652737|directionChanges=0.000000|apparentLag=0.066667
+AB|walkNoisyHeavy|oneEuro|truth|meanSubjectError=0.006989|meanSubjectErrorInCropWidths=0.022090|insideCropRatio=1.000000|maxSpeed=0.080377|maxAcceleration=0.767518|jerkRMS=2.038634|directionChanges=0.000000|apparentLag=0.166667
+AB|sineClean|baseline|raw|meanSubjectError=0.008196|meanSubjectErrorInCropWidths=0.025903|insideCropRatio=1.000000|maxSpeed=0.223921|maxAcceleration=1.426051|jerkRMS=1.872661|directionChanges=3.000000|apparentLag=0.033333
+AB|sineClean|oneEuro|raw|meanSubjectError=0.019308|meanSubjectErrorInCropWidths=0.061022|insideCropRatio=1.000000|maxSpeed=0.214242|maxAcceleration=1.174810|jerkRMS=1.784854|directionChanges=3.000000|apparentLag=0.133333
+AB|sineClean|baseline|truth|meanSubjectError=
+0.008196|meanSubjectErrorInCropWidths=0.025903|insideCropRatio=1.000000|maxSpeed=0.223921|maxAcceleration=1.426051|jerkRMS=1.872661|directionChanges=3.000000|apparentLag=0.033333
+AB|sineClean|oneEuro|truth|meanSubjectError=0.019308|meanSubjectErrorInCropWidths=0.061022|insideCropRatio=1.000000|maxSpeed=0.214242|maxAcceleration=1.174810|jerkRMS=1.784854|directionChanges=3.000000|apparentLag=0.133333
+AB|sineNoisy|baseline|raw|meanSubjectError=0.008886|meanSubjectErrorInCropWidths=0.028084|insideCropRatio=1.000000|maxSpeed=0.227890|maxAcceleration=1.535189|jerkRMS=2.843861|directionChanges=3.000000|apparentLag=0.033333
+AB|sineNoisy|oneEuro|raw|meanSubjectError=0.019054|meanSubjectErrorInCropWidths=0.060221|insideCropRatio=1.000000|maxSpeed=0.216324|maxAcceleration=1.247600|jerkRMS=1.882778|directionChanges=3.000000|apparentLag=0.133333
+AB|sineNoisy|baseline|truth|meanSubjectError=0.007818|meanSubjectErrorInCropWidths=0.024708|insideCropRatio=1.000000|maxSpeed=0.227890|maxAcceleration=1.535189|jerkRMS=2.843861|directionChanges=3.000000|apparentLag=0.033333
+AB|sineNoisy|oneEuro|truth|meanSubjectError=0.018699|meanSubjectErrorInCropWidths=0.059097|insideCropRatio=1.000000|maxSpeed=0.216324|maxAcceleration=1.247600|jerkRMS=1.882778|directionChanges=3.000000|apparentLag=0.133333
+AB|zigzagNoisy|baseline|raw|meanSubjectError=0.007611|meanSubjectErrorInCropWidths=0.024054|insideCropRatio=1.000000|maxSpeed=0.148289|maxAcceleration=0.840771|jerkRMS=2.772702|directionChanges=3.000000|apparentLag=0.033333
+AB|zigzagNoisy|oneEuro|raw|meanSubjectError=0.017333|meanSubjectErrorInCropWidths=0.054782|insideCropRatio=1.000000|maxSpeed=0.147064|maxAcceleration=0.856431|jerkRMS=1.959376|directionChanges=3.000000|apparentLag=0.133333
+AB|zigzagNoisy|baseline|truth|meanSubjectError=0.006144|meanSubjectErrorInCropWidths=0.019417|insideCropRatio=1.000000|maxSpeed=0.148289|maxAcceleration=0.840771|jerkRMS=2.772702|directionChanges=3.000000|apparentLag=0.033333
+AB|zigzagNoisy|oneEuro|truth|meanSubjectError=0.016961|meanSubjectErrorInCropWidths=0.053604|insideCropRatio=1.000000|maxSpeed=0.147064|maxAcceleration=0.856431|jerkRMS=1.959376|directionChanges=3.000000|apparentLag=0.133333
+AB|jump|baseline|raw|meanSubjectError=0.037723|meanSubjectErrorInCropWidths=0.119222|insideCropRatio=0.900000|maxSpeed=0.350000|maxAcceleration=5.839471|jerkRMS=16.003879|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|oneEuro|raw|meanSubjectError=0.038057|meanSubjectErrorInCropWidths=0.120279|insideCropRatio=0.906667|maxSpeed=0.350000|maxAcceleration=4.829047|jerkRMS=12.235294|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|baseline|truth|meanSubjectError=0.037723|meanSubjectErrorInCropWidths=0.119222|insideCropRatio=0.900000|maxSpeed=0.350000|maxAcceleration=5.839471|jerkRMS=16.003879|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|oneEuro|truth|meanSubjectError=0.038057|meanSubjectErrorInCropWidths=0.120279|insideCropRatio=0.906667|maxSpeed=0.350000|maxAcceleration=4.829047|jerkRMS=12.235294|directionChanges=0.000000|apparentLag=0.200000
+AB|loss|baseline|raw|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|oneEuro|raw|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|baseline|truth|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|oneEuro|truth|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+Test Case 'ABComparisonTests.testSideBySideComparisonPrintsMetricsAndBothPipelinesStayValid' passed (0.023 seconds)
+Test Suite 'ABComparisonTests' passed at 2026-10-09 09:37:55.182
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.023 (0.023) seconds
+Test Suite 'CropGeometryTests' started at 2026-10-09 09:37:55.182
+Test Case 'CropGeometryTests.testCropWidth16x9To9x16' started at 2026-10-09 09:37:55.182
+Test Case 'CropGeometryTests.testCropWidth16x9To9x16' passed (0.0 seconds)
+Test Case 'CropGeometryTests.testCropWidthOtherOutputs' started at 2026-10-09 09:37:55.182
+Test Case 'CropGeometryTests.testCropWidthOtherOutputs' passed (0.001 seconds)
+Test Case 'CropGeometryTests.testIndependentOfResolution' started at 2026-10-09 09:37:55.183
+Test Case 'CropGeometryTests.testIndependentOfResolution' passed (0.0 seconds)
+Test Case 'CropGeometryTests.testOutputWiderThanSourceIsCappedAtFullWidth' started at 2026-10-09 09:37:55.183
+Test Case 'CropGeometryTests.testOutputWiderThanSourceIsCappedAtFullWidth' passed (0.0 seconds)
+Test Suite 'CropGeometryTests' passed at 2026-10-09 09:37:55.183
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'GoldenParityTests' started at 2026-10-09 09:37:55.183
+Test Case 'GoldenParityTests.testBoxWiderThanCropMatchesPython' started at 2026-10-09 09:37:55.183
+Test Case 'GoldenParityTests.testBoxWiderThanCropMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testEdgesMatchPython' started at 2026-10-09 09:37:55.183
+Test Case 'GoldenParityTests.testEdgesMatchPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testJumpMatchesPython' started at 2026-10-09 09:37:55.183
+Test Case 'GoldenParityTests.testJumpMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testLookAheadMatchesPython' started at 2026-10-09 09:37:55.183
+Test Case 'GoldenParityTests.testLookAheadMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testLossMatchesPython' started at 2026-10-09 09:37:55.184
+Test Case 'GoldenParityTests.testLossMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testLowMaxSpeedMatchesPython' started at 2026-10-09 09:37:55.184
+Test Case 'GoldenParityTests.testLowMaxSpeedMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testMetricsMatchPython' started at 2026-10-09 09:37:55.184
+Test Case 'GoldenParityTests.testMetricsMatchPython' passed (0.002 seconds)
+Test Case 'GoldenParityTests.testSineAt30And60FpsMatchPython' started at 2026-10-09 09:37:55.186
+Test Case 'GoldenParityTests.testSineAt30And60FpsMatchPython' passed (0.001 seconds)
+Test Case 'GoldenParityTests.testStationaryJitterMatchesPython' started at 2026-10-09 09:37:55.187
+Test Case 'GoldenParityTests.testStationaryJitterMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testWalkMatchesPython' started at 2026-10-09 09:37:55.187
+Test Case 'GoldenParityTests.testWalkMatchesPython' passed (0.0 seconds)
+Test Case 'GoldenParityTests.testZeroSmoothingMatchesPython' started at 2026-10-09 09:37:55.187
+Test Case 'GoldenParityTests.testZeroSmoothingMatchesPython' passed (0.0 seconds)
+Test Suite 'GoldenParityTests' passed at 2026-10-09 09:37:55.188
+Executed 11 tests, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'MetricsTests' started at 2026-10-09 09:37:55.188
+Test Case 'MetricsTests.testConstantVelocityRamp' started at 2026-10-09 09:37:55.188
+Test Case 'MetricsTests.testConstantVelocityRamp' passed (0.0 seconds)
+Test Case 'MetricsTests.testDirectionChangesAreCounted' started at 2026-10-09 09:37:55.188
+Test Case 'MetricsTests.testDirectionChangesAreCounted' passed (0.0 seconds)
+Test Case 'MetricsTests.testLookAheadReducesApparentLag' started at 2026-10-09 09:37:55.188
+Test Case 'MetricsTests.testLookAheadReducesApparentLag' passed (0.001 seconds)
+Test Case 'MetricsTests.testPerfectlyCenteredStationaryCrop' started at 2026-10-09 09:37:55.189
+Test Case 'MetricsTests.testPerfectlyCenteredStationaryCrop' passed (0.0 seconds)
+Test Case 'MetricsTests.testSubjectOutsideCropLowersInsideRatio' started at 2026-10-09 09:37:55.189
+Test Case 'MetricsTests.testSubjectOutsideCropLowersInsideRatio' passed (0.1 seconds)
+Test Case 'MetricsTests.testTooFewSamplesReturnsZero' started at 2026-10-09 09:37:55.290
+Test Case 'MetricsTests.testTooFewSamplesReturnsZero' passed (0.0 seconds)
+Test Suite 'MetricsTests' passed at 2026-10-09 09:37:55.290
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.102 (0.102) seconds
+Test Suite 'OneEuroFilterTests' started at 2026-10-09 09:37:55.290
+Test Case 'OneEuroFilterTests.testConstantSignalStaysConstant' started at 2026-10-09 09:37:55.290
+Test Case 'OneEuroFilterTests.testConstantSignalStaysConstant' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testExtremeValidParametersStayFiniteAndInsideTheInputRange' started at 2026-10-09 09:37:55.290
+Test Case 'OneEuroFilterTests.testExtremeValidParametersStayFiniteAndInsideTheInputRange' passed (0.001 seconds)
+Test Case 'OneEuroFilterTests.testFastRampWithBetaLagsLessThanWithoutBeta' started at 2026-10-09 09:37:55.291
+Test Case 'OneEuroFilterTests.testFastRampWithBetaLagsLessThanWithoutBeta' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testFiltersHaveNoSharedStateAndAreDeterministic' started at 2026-10-09 09:37:55.291
+Test Case 'OneEuroFilterTests.testFiltersHaveNoSharedStateAndAreDeterministic' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testFirstSampleIsReturnedUnchangedAndInitializesTheFilter' started at 2026-10-09 09:37:55.291
+Test Case 'OneEuroFilterTests.testFirstSampleIsReturnedUnchangedAndInitializesTheFilter' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testInvalidParametersFallBackToDefaults' started at 2026-10-09 09:37:55.291
+Test Case 'OneEuroFilterTests.testInvalidParametersFallBackToDefaults' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testIrregularTimestampsMatchIndependentReference' started at 2026-10-09 09:37:55.291
+Test Case 'OneEuroFilterTests.testIrregularTimestampsMatchIndependentReference' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testNonFiniteInputsAreIgnored' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testNonFiniteInputsAreIgnored' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testResetClearsStateBetweenTrajectories' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testResetClearsStateBetweenTrajectories' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testResetWithValueSeedsLikeAFirstSample' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testResetWithValueSeedsLikeAFirstSample' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testSlowRampLagIsBoundedByMinCutoffTimeConstant' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testSlowRampLagIsBoundedByMinCutoffTimeConstant' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testSmallJitterIsAttenuated' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testSmallJitterIsAttenuated' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testStepChangeNeverOvershootsAndConverges' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testStepChangeNeverOvershootsAndConverges' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testThirtyAndSixtyFpsAgreeOnASmoothSignal' started at 2026-10-09 09:37:55.292
+Test Case 'OneEuroFilterTests.testThirtyAndSixtyFpsAgreeOnASmoothSignal' passed (0.0 seconds)
+Test Case 'OneEuroFilterTests.testZeroAndNegativeDeltaTimeAreIgnoredWithoutChangingState' started at 2026-10-09 09:37:55.293
+Test Case 'OneEuroFilterTests.testZeroAndNegativeDeltaTimeAreIgnoredWithoutChangingState' passed (0.0 seconds)
+Test Suite 'OneEuroFilterTests' passed at 2026-10-09 09:37:55.293
+Executed 15 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'OneEuroParityTests' started at 2026-10-09 09:37:55.293
+Test Case 'OneEuroParityTests.testABMetricsMatchPython' started at 2026-10-09 09:37:55.293
+Test Case 'OneEuroParityTests.testABMetricsMatchPython' passed (0.018 seconds)
+Test Case 'OneEuroParityTests.testABTrajectoriesMatchPython' started at 2026-10-09 09:37:55.311
+Test Case 'OneEuroParityTests.testABTrajectoriesMatchPython' passed (0.018 seconds)
+Test Case 'OneEuroParityTests.testFilterOutputsMatchPython' started at 2026-10-09 09:37:55.329
+Test Case 'OneEuroParityTests.testFilterOutputsMatchPython' passed (0.0 seconds)
+Test Suite 'OneEuroParityTests' passed at 2026-10-09 09:37:55.329
+Executed 3 tests, with 0 failures (0 unexpected) in 0.037 (0.037) seconds
+Test Suite 'ReframeEngineTests' started at 2026-10-09 09:37:55.329
+Test Case 'ReframeEngineTests.testBoxWiderThanCropStaysStableAndValid' started at 2026-10-09 09:37:55.329
+Test Case 'ReframeEngineTests.testBoxWiderThanCropStaysStableAndValid' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testCropNeverLeavesFrameWithRandomInput' started at 2026-10-09 09:37:55.330
+Test Case 'ReframeEngineTests.testCropNeverLeavesFrameWithRandomInput' passed (0.025 seconds)
+Test Case 'ReframeEngineTests.testDeterministicOutput' started at 2026-10-09 09:37:55.355
+Test Case 'ReframeEngineTests.testDeterministicOutput' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testEmptyInputAndTimeRange' started at 2026-10-09 09:37:55.355
+Test Case 'ReframeEngineTests.testEmptyInputAndTimeRange' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testEngineWorksForOtherOutputAspects' started at 2026-10-09 09:37:55.355
+Test Case 'ReframeEngineTests.testEngineWorksForOtherOutputAspects' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testLookAheadZeroHasNoAnticipation' started at 2026-10-09 09:37:55.356
+Test Case 'ReframeEngineTests.testLookAheadZeroHasNoAnticipation' passed (0.001 seconds)
+Test Case 'ReframeEngineTests.testLostTrackingHoldsThenRecovers' started at 2026-10-09 09:37:55.357
+Test Case 'ReframeEngineTests.testLostTrackingHoldsThenRecovers' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testLowConfidencePointsCountAsLost' started at 2026-10-09 09:37:55.357
+Test Case 'ReframeEngineTests.testLowConfidencePointsCountAsLost' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testLowMaxSpeedIsRespected' started at 2026-10-09 09:37:55.357
+Test Case 'ReframeEngineTests.testLowMaxSpeedIsRespected' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testMarginKeepsSubjectBoxInsideCropOnceSettled' started at 2026-10-09 09:37:55.358
+Test Case 'ReframeEngineTests.testMarginKeepsSubjectBoxInsideCropOnceSettled' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testStationarySubjectProducesNoMicroMovements' started at 2026-10-09 09:37:55.358
+Test Case 'ReframeEngineTests.testStationarySubjectProducesNoMicroMovements' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testSubjectAtFarLeftAndFarRight' started at 2026-10-09 09:37:55.358
+Test Case 'ReframeEngineTests.testSubjectAtFarLeftAndFarRight' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testSuddenJumpDoesNotTeleportTheCrop' started at 2026-10-09 09:37:55.358
+Test Case 'ReframeEngineTests.testSuddenJumpDoesNotTeleportTheCrop' passed (0.0 seconds)
+Test Case 'ReframeEngineTests.testThirtyAndSixtyFpsAreEquivalent' started at 2026-10-09 09:37:55.359
+Test Case 'ReframeEngineTests.testThirtyAndSixtyFpsAreEquivalent' passed (0.001 seconds)
+Test Case 'ReframeEngineTests.testWalkingSubjectIsFollowedSmoothly' started at 2026-10-09 09:37:55.360
+Test Case 'ReframeEngineTests.testWalkingSubjectIsFollowedSmoothly' passed (0.001 seconds)
+Test Case 'ReframeEngineTests.testZeroSmoothingTracksTargetImmediately' started at 2026-10-09 09:37:55.360
+Test Case 'ReframeEngineTests.testZeroSmoothingTracksTargetImmediately' passed (0.0 seconds)
+Test Suite 'ReframeEngineTests' passed at 2026-10-09 09:37:55.361
+Executed 16 tests, with 0 failures (0 unexpected) in 0.031 (0.031) seconds
+Test Suite 'ReframePipelineTests' started at 2026-10-09 09:37:55.361
+Test Case 'ReframePipelineTests.testConstantSubjectGivesTheSameCropWithAndWithoutOneEuro' started at 2026-10-09 09:37:55.361
+Test Case 'ReframePipelineTests.testConstantSubjectGivesTheSameCropWithAndWithoutOneEuro' passed (0.0 seconds)
+Test Case 'ReframePipelineTests.testDisabledPipelineIsBitIdenticalToTheM1Engine' started at 2026-10-09 09:37:55.361
+Test Case 'ReframePipelineTests.testDisabledPipelineIsBitIdenticalToTheM1Engine' passed (0.005 seconds)
+Test Case 'ReframePipelineTests.testDisabledPipelineStillMatchesTheM1GoldenData' started at 2026-10-09 09:37:55.366
+Test Case 'ReframePipelineTests.testDisabledPipelineStillMatchesTheM1GoldenData' passed (0.0 seconds)
+Test Case 'ReframePipelineTests.testDisabledPrefilterReturnsThePointsUntouched' started at 2026-10-09 09:37:55.366
+Test Case 'ReframePipelineTests.testDisabledPrefilterReturnsThePointsUntouched' passed (0.0 seconds)
+Test Case 'ReframePipelineTests.testEnabledPipelineIsThePrefilterFollowedByTheSameEngine' started at 2026-10-09 09:37:55.367
+Test Case 'ReframePipelineTests.testEnabledPipelineIsThePrefilterFollowedByTheSameEngine' passed (0.001 seconds)
+Test Case 'ReframePipelineTests.testEnabledPipelineNeverLeavesTheFrameOnRandomInput' started at 2026-10-09 09:37:55.368
+Test Case 'ReframePipelineTests.testEnabledPipelineNeverLeavesTheFrameOnRandomInput' passed (0.017 seconds)
+Test Case 'ReframePipelineTests.testEnabledPrefilterKeepsTimesConfidencesCountAndLeavesLowConfidencePointsAlone' started at 2026-10-09 09:37:55.384
+Test Case 'ReframePipelineTests.testEnabledPrefilterKeepsTimesConfidencesCountAndLeavesLowConfidencePointsAlone' passed (0.0 seconds)
+Test Case 'ReframePipelineTests.testExtremeOneEuroParametersKeepTheCropValid' started at 2026-10-09 09:37:55.385
+Test Case 'ReframePipelineTests.testExtremeOneEuroParametersKeepTheCropValid' passed (0.001 seconds)
+Test Case 'ReframePipelineTests.testGapLargerThanMaxInterpolationGapResetsTheFilter' started at 2026-10-09 09:37:55.386
+Test Case 'ReframePipelineTests.testGapLargerThanMaxInterpolationGapResetsTheFilter' passed (0.0 seconds)
+Test Case 'ReframePipelineTests.testInputOrderDoesNotMatter' started at 2026-10-09 09:37:55.386
+Test Case 'ReframePipelineTests.testInputOrderDoesNotMatter' passed (0.001 seconds)
+Test Case 'ReframePipelineTests.testOneEuroIsDisabledByDefault' started at 2026-10-09 09:37:55.387
+Test Case 'ReframePipelineTests.testOneEuroIsDisabledByDefault' passed (0.0 seconds)
+Test Suite 'ReframePipelineTests' passed at 2026-10-09 09:37:55.387
+Executed 11 tests, with 0 failures (0 unexpected) in 0.027 (0.027) seconds
+Test Suite 'SpringTests' started at 2026-10-09 09:37:55.387
+Test Case 'SpringTests.testClosedFormValueAtSmoothingTime' started at 2026-10-09 09:37:55.387
+Test Case 'SpringTests.testClosedFormValueAtSmoothingTime' passed (0.0 seconds)
+Test Case 'SpringTests.testNeverOvershoots' started at 2026-10-09 09:37:55.387
+Test Case 'SpringTests.testNeverOvershoots' passed (0.0 seconds)
+Test Case 'SpringTests.testStepSizeInvariance' started at 2026-10-09 09:37:55.387
+Test Case 'SpringTests.testStepSizeInvariance' passed (0.0 seconds)
+Test Case 'SpringTests.testZeroDeltaTimeKeepsState' started at 2026-10-09 09:37:55.387
+Test Case 'SpringTests.testZeroDeltaTimeKeepsState' passed (0.1 seconds)
+Test Case 'SpringTests.testZeroSmoothingIsImmediate' started at 2026-10-09 09:37:55.488
+Test Case 'SpringTests.testZeroSmoothingIsImmediate' passed (0.0 seconds)
+Test Suite 'SpringTests' passed at 2026-10-09 09:37:55.488
+Executed 5 tests, with 0 failures (0 unexpected) in 0.101 (0.101) seconds
+Test Suite 'CommandLineOptionsTests' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testAllOptionsAndAnyOrder' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testAllOptionsAndAnyOrder' passed (0.0 seconds)
+Test Case 'CommandLineOptionsTests.testErrors' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testErrors' passed (0.0 seconds)
+Test Case 'CommandLineOptionsTests.testMinimalTrackCommand' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testMinimalTrackCommand' passed (0.0 seconds)
+Test Case 'CommandLineOptionsTests.testSettingsMapping' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testSettingsMapping' passed (0.0 seconds)
+Test Case 'CommandLineOptionsTests.testSubjectAtIsParsedIntoSettings' started at 2026-10-09 09:37:55.488
+Test Case 'CommandLineOptionsTests.testSubjectAtIsParsedIntoSettings' passed (0.0 seconds)
+Test Case 'CommandLineOptionsTests.testSubjectAtRejectsInvalidValues' started at 2026-10-09 09:37:55.489
+Test Case 'CommandLineOptionsTests.testSubjectAtRejectsInvalidValues' passed (0.0 seconds)
+Test Suite 'CommandLineOptionsTests' passed at 2026-10-09 09:37:55.489
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'CoordinateTests' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testAreaRatioAndDistance' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testAreaRatioAndDistance' passed (0.0 seconds)
+Test Case 'CoordinateTests.testClampedToUnit' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testClampedToUnit' passed (0.0 seconds)
+Test Case 'CoordinateTests.testIPhonePortraitRotatedClockwise' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testIPhonePortraitRotatedClockwise' passed (0.0 seconds)
+Test Case 'CoordinateTests.testIdentityMapping' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testIdentityMapping' passed (0.0 seconds)
+Test Case 'CoordinateTests.testInvalidMappingsAreRejected' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testInvalidMappingsAreRejected' passed (0.0 seconds)
+Test Case 'CoordinateTests.testIoU' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testIoU' passed (0.0 seconds)
+Test Case 'CoordinateTests.testPersonOnTheLeftOfAPortraitScreen' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testPersonOnTheLeftOfAPortraitScreen' passed (0.0 seconds)
+Test Case 'CoordinateTests.testRotated180' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testRotated180' passed (0.0 seconds)
+Test Case 'CoordinateTests.testRotated90CounterClockwise' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testRotated90CounterClockwise' passed (0.0 seconds)
+Test Case 'CoordinateTests.testRoundTripForAllTransforms' started at 2026-10-09 09:37:55.489
+Test Case 'CoordinateTests.testRoundTripForAllTransforms' passed (0.004 seconds)
+Test Case 'CoordinateTests.testVisionBottomLeftToTopLeft' started at 2026-10-09 09:37:55.493
+Test Case 'CoordinateTests.testVisionBottomLeftToTopLeft' passed (0.1 seconds)
+Test Case 'CoordinateTests.testVisionConversionIsItsOwnInverse' started at 2026-10-09 09:37:55.594
+Test Case 'CoordinateTests.testVisionConversionIsItsOwnInverse' passed (0.0 seconds)
+Test Case 'CoordinateTests.testWideRawBoxBecomesTallWhenVideoIsRotated' started at 2026-10-09 09:37:55.594
+Test Case 'CoordinateTests.testWideRawBoxBecomesTallWhenVideoIsRotated' passed (0.0 seconds)
+Test Suite 'CoordinateTests' passed at 2026-10-09 09:37:55.594
+Executed 13 tests, with 0 failures (0 unexpected) in 0.105 (0.105) seconds
+Test Suite 'RenderPlanningTests' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testCropXAlwaysInsideTheFrame' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testCropXAlwaysInsideTheFrame' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testEngineCenterMapsToPixelsWithoutExtraClamp' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testEngineCenterMapsToPixelsWithoutExtraClamp' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometry4KKeepsFullResolution' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testGeometry4KKeepsFullResolution' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryHorizontalToVertical1080p' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testGeometryHorizontalToVertical1080p' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryOddOutputHeightBecomesEven' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testGeometryOddOutputHeightBecomesEven' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryOtherAspects' started at 2026-10-09 09:37:55.594
+Test Case 'RenderPlanningTests.testGeometryOtherAspects' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryRejectsInvalidInput' started at 2026-10-09 09:37:55.595
+Test Case 'RenderPlanningTests.testGeometryRejectsInvalidInput' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryVerticalSourceUsesWholeFrame' started at 2026-10-09 09:37:55.595
+Test Case 'RenderPlanningTests.testGeometryVerticalSourceUsesWholeFrame' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testGeometryWithOutputHeightScalesFirst' started at 2026-10-09 09:37:55.595
+Test Case 'RenderPlanningTests.testGeometryWithOutputHeightScalesFirst' passed (0.1 seconds)
+Test Case 'RenderPlanningTests.testOrientationFromStandardIPhoneTransforms' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testOrientationFromStandardIPhoneTransforms' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testOrientationIgnoresTranslation' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testOrientationIgnoresTranslation' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testParseAspect' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testParseAspect' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testPresetDefaultsToSuave' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testPresetDefaultsToSuave' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testPresetsMatchTheComparedVariants' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testPresetsMatchTheComparedVariants' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRecenterEmptyInputs' started at 2026-10-09 09:37:55.695
+Test Case 'RenderPlanningTests.testRecenterEmptyInputs' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRecenterFlag' started at 2026-10-09 09:37:55.696
+Test Case 'RenderPlanningTests.testRecenterFlag' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRecenterGoesToCenterAndBack' started at 2026-10-09 09:37:55.696
+Test Case 'RenderPlanningTests.testRecenterGoesToCenterAndBack' passed (0.001 seconds)
+Test Case 'RenderPlanningTests.testRecenterIsSmoothAndStaysInsideTheRange' started at 2026-10-09 09:37:55.696
+Test Case 'RenderPlanningTests.testRecenterIsSmoothAndStaysInsideTheRange' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRecenterNeverLostLeavesTrajectoryUntouched' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testRecenterNeverLostLeavesTrajectoryUntouched' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRenderOptionsAll' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testRenderOptionsAll' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRenderOptionsErrors' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testRenderOptionsErrors' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testRenderOptionsMinimal' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testRenderOptionsMinimal' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testTimelineClampsOutsideRange' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testTimelineClampsOutsideRange' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testTimelineEmptyAndInvalid' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testTimelineEmptyAndInvalid' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testTimelineHandlesUnsortedInputAndMatchesEngineAtSamples' started at 2026-10-09 09:37:55.697
+Test Case 'RenderPlanningTests.testTimelineHandlesUnsortedInputAndMatchesEngineAtSamples' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testTimelineInterpolatesLinearly' started at 2026-10-09 09:37:55.698
+Test Case 'RenderPlanningTests.testTimelineInterpolatesLinearly' passed (0.0 seconds)
+Test Case 'RenderPlanningTests.testUnsupportedTransformsAreRejected' started at 2026-10-09 09:37:55.698
+Test Case 'RenderPlanningTests.testUnsupportedTransformsAreRejected' passed (0.0 seconds)
+Test Suite 'RenderPlanningTests' passed at 2026-10-09 09:37:55.698
+Executed 27 tests, with 0 failures (0 unexpected) in 0.104 (0.104) seconds
+Test Suite 'SubjectSelectorTests' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testBestMatchPicksHighestIoUAndRespectsThreshold' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testBestMatchPicksHighestIoUAndRespectsThreshold' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testBestMatchProximityForRecovery' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testBestMatchProximityForRecovery' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testBiggerBoxScoresHigher' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testBiggerBoxScoresHigher' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testBiggerPersonDoesNotBeatIncumbentByMargin' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testBiggerPersonDoesNotBeatIncumbentByMargin' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testCentralBoxScoresHigherThanEdgeBoxOfSameSize' started at 2026-10-09 09:37:55.698
+Test Case 'SubjectSelectorTests.testCentralBoxScoresHigherThanEdgeBoxOfSameSize' passed (0.1 seconds)
+Test Case 'SubjectSelectorTests.testClearlyBetterPersonIsAChallenger' started at 2026-10-09 09:37:55.798
+Test Case 'SubjectSelectorTests.testClearlyBetterPersonIsAChallenger' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testIncumbentItselfIsNeverItsOwnChallenger' started at 2026-10-09 09:37:55.799
+Test Case 'SubjectSelectorTests.testIncumbentItselfIsNeverItsOwnChallenger' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPersistenceRaisesScoreOfTheIncumbent' started at 2026-10-09 09:37:55.799
+Test Case 'SubjectSelectorTests.testPersistenceRaisesScoreOfTheIncumbent' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickInitialIsOrderIndependent' started at 2026-10-09 09:37:55.799
+Test Case 'SubjectSelectorTests.testPickInitialIsOrderIndependent' passed (0.001 seconds)
+Test Case 'SubjectSelectorTests.testPickInitialPrefersLargeCentralPerson' started at 2026-10-09 09:37:55.799
+Test Case 'SubjectSelectorTests.testPickInitialPrefersLargeCentralPerson' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickInitialWithNothingUsable' started at 2026-10-09 09:37:55.799
+Test Case 'SubjectSelectorTests.testPickInitialWithNothingUsable' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickNearAcceptsCloseMissesAndRejectsFarOnes' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectSelectorTests.testPickNearAcceptsCloseMissesAndRejectsFarOnes' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickNearChoosesTheBoxContainingThePoint' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectSelectorTests.testPickNearChoosesTheBoxContainingThePoint' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickNearIgnoresUnusableDetections' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectSelectorTests.testPickNearIgnoresUnusableDetections' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testPickNearWithOverlapPicksTheClosestCenter' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectSelectorTests.testPickNearWithOverlapPicksTheClosestCenter' passed (0.0 seconds)
+Test Case 'SubjectSelectorTests.testUsableFiltersLowConfidenceAndInvalid' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectSelectorTests.testUsableFiltersLowConfidenceAndInvalid' passed (0.0 seconds)
+Test Suite 'SubjectSelectorTests' passed at 2026-10-09 09:37:55.800
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.102 (0.102) seconds
+Test Suite 'SubjectTrackerTests' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectTrackerTests.testAcquiringUntilSomeoneIsDetected' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectTrackerTests.testAcquiringUntilSomeoneIsDetected' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testBecomesLostAfterHoldDurationButKeepsIdentityAndBox' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectTrackerTests.testBecomesLostAfterHoldDurationButKeepsIdentityAndBox' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testBiggerPersonAloneNeverCausesASwitch' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectTrackerTests.testBiggerPersonAloneNeverCausesASwitch' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testChosenSubjectIsLockedAgainstSwitching' started at 2026-10-09 09:37:55.800
+Test Case 'SubjectTrackerTests.testChosenSubjectIsLockedAgainstSwitching' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testCustomSettingsAreHonoured' started at 2026-10-09 09:37:55.801
+Test Case 'SubjectTrackerTests.testCustomSettingsAreHonoured' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testDetectionReanchorsTheTracker' started at 2026-10-09 09:37:55.801
+Test Case 'SubjectTrackerTests.testDetectionReanchorsTheTracker' passed (0.001 seconds)
+Test Case 'SubjectTrackerTests.testDeterministic' started at 2026-10-09 09:37:55.802
+Test Case 'SubjectTrackerTests.testDeterministic' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testDoesNotSwitchToAnotherPersonDuringRecoveryWindow' started at 2026-10-09 09:37:55.802
+Test Case 'SubjectTrackerTests.testDoesNotSwitchToAnotherPersonDuringRecoveryWindow' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testDriftingTrackerIsFollowedOnlyBrieflyBeforeRejection' started at 2026-10-09 09:37:55.802
+Test Case 'SubjectTrackerTests.testDriftingTrackerIsFollowedOnlyBrieflyBeforeRejection' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testDriftingTrackerIsRejectedWhenNoDetectionAgrees' started at 2026-10-09 09:37:55.802
+Test Case 'SubjectTrackerTests.testDriftingTrackerIsRejectedWhenNoDetectionAgrees' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testFollowsTrackerBetweenDetections' started at 2026-10-09 09:37:55.803
+Test Case 'SubjectTrackerTests.testFollowsTrackerBetweenDetections' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testGarbageInputNeverProducesInvalidOutput' started at 2026-10-09 09:37:55.803
+Test Case 'SubjectTrackerTests.testGarbageInputNeverProducesInvalidOutput' passed (0.001 seconds)
+Test Case 'SubjectTrackerTests.testHintOnlyAppliesToTheFirstChoice' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testHintOnlyAppliesToTheFirstChoice' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testHintPicksTheTouchedPersonEvenIfAnotherScoresHigher' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testHintPicksTheTouchedPersonEvenIfAnotherScoresHigher' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testHintWaitsWhileNobodyIsDetected' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testHintWaitsWhileNobodyIsDetected' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testHintWithNobodyNearFallsBackToAutomaticChoice' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testHintWithNobodyNearFallsBackToAutomaticChoice' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testHoldsLastValidBoxWithoutJumping' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testHoldsLastValidBoxWithoutJumping' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testIdentityStableWithJitteringTracker' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testIdentityStableWithJitteringTracker' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testLowConfidenceTrackerCountsAsLost' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testLowConfidenceTrackerCountsAsLost' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testMomentaryChallengerNeverTakesOver' started at 2026-10-09 09:37:55.804
+Test Case 'SubjectTrackerTests.testMomentaryChallengerNeverTakesOver' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testOneMissedDetectionDoesNotRejectTheTracker' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testOneMissedDetectionDoesNotRejectTheTracker' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testPicksSomeoneElseOnlyAfterRecoveryWindow' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testPicksSomeoneElseOnlyAfterRecoveryWindow' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testRecoversSamePersonByOverlap' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testRecoversSamePersonByOverlap' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testRecoversSamePersonByProximityWithoutOverlap' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testRecoversSamePersonByProximityWithoutOverlap' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testRejectedTrackerStaysIgnoredUntilDetectionFindsSubjectAgain' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testRejectedTrackerStaysIgnoredUntilDetectionFindsSubjectAgain' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testSwitchesOnlyAfterSustainedDwell' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testSwitchesOnlyAfterSustainedDwell' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testTrackerCanRecoverByItself' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testTrackerCanRecoverByItself' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testTrackerConfirmedByDetectionsIsNeverRejected' started at 2026-10-09 09:37:55.805
+Test Case 'SubjectTrackerTests.testTrackerConfirmedByDetectionsIsNeverRejected' passed (0.0 seconds)
+Test Case 'SubjectTrackerTests.testTrackerJumpIsRejected' started at 2026-10-09 09:37:55.806
+Test Case 'SubjectTrackerTests.testTrackerJumpIsRejected' passed (0.0 seconds)
+Test Suite 'SubjectTrackerTests' passed at 2026-10-09 09:37:55.806
+Executed 29 tests, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'TimestampTests' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testDuplicatesAndBackwardsAreDropped' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testDuplicatesAndBackwardsAreDropped' passed (0.0 seconds)
+Test Case 'TimestampTests.testEstimatedFPS' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testEstimatedFPS' passed (0.0 seconds)
+Test Case 'TimestampTests.testFirstTimestampBecomesZero' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testFirstTimestampBecomesZero' passed (0.0 seconds)
+Test Case 'TimestampTests.testInvalidIntervalFallsBack' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testInvalidIntervalFallsBack' passed (0.0 seconds)
+Test Case 'TimestampTests.testNegativeOrZeroStartIsRebased' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testNegativeOrZeroStartIsRebased' passed (0.0 seconds)
+Test Case 'TimestampTests.testNonFiniteIsDropped' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testNonFiniteIsDropped' passed (0.0 seconds)
+Test Case 'TimestampTests.testOutputIsStrictlyIncreasing' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testOutputIsStrictlyIncreasing' passed (0.0 seconds)
+Test Case 'TimestampTests.testRedetectionEveryHalfSecondAt30fps' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testRedetectionEveryHalfSecondAt30fps' passed (0.0 seconds)
+Test Case 'TimestampTests.testRedetectionFirstCallAndForce' started at 2026-10-09 09:37:55.806
+Test Case 'TimestampTests.testRedetectionFirstCallAndForce' passed (0.0 seconds)
+Test Case 'TimestampTests.testRedetectionIsConfigurableNotHardcoded' started at 2026-10-09 09:37:55.807
+Test Case 'TimestampTests.testRedetectionIsConfigurableNotHardcoded' passed (0.0 seconds)
+Test Suite 'TimestampTests' passed at 2026-10-09 09:37:55.807
+Executed 10 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TrackingReportTests' started at 2026-10-09 09:37:55.807
+Test Case 'TrackingReportTests.testFeedsTheUnmodifiedReframeEngine' started at 2026-10-09 09:37:55.807
+Test Case 'TrackingReportTests.testFeedsTheUnmodifiedReframeEngine' passed (0.001 seconds)
+Test Case 'TrackingReportTests.testJSONIsDeterministicAndHasExpectedShape' started at 2026-10-09 09:37:55.807
+Test Case 'TrackingReportTests.testJSONIsDeterministicAndHasExpectedShape' passed (0.001 seconds)
+Test Case 'TrackingReportTests.testJSONRoundTrip' started at 2026-10-09 09:37:55.808
+Test Case 'TrackingReportTests.testJSONRoundTrip' passed (0.0 seconds)
+Test Case 'TrackingReportTests.testLostFramesAreIgnoredByTheEngine' started at 2026-10-09 09:37:55.808
+Test Case 'TrackingReportTests.testLostFramesAreIgnoredByTheEngine' passed (0.0 seconds)
+Test Case 'TrackingReportTests.testSubjectTrackConversion' started at 2026-10-09 09:37:55.808
+Test Case 'TrackingReportTests.testSubjectTrackConversion' passed (0.0 seconds)
+Test Case 'TrackingReportTests.testSubjectTracksSplitByID' started at 2026-10-09 09:37:55.808
+Test Case 'TrackingReportTests.testSubjectTracksSplitByID' passed (0.1 seconds)
+Test Suite 'TrackingReportTests' passed at 2026-10-09 09:37:55.909
+Executed 6 tests, with 0 failures (0 unexpected) in 0.102 (0.102) seconds
+Test Suite 'debug.xctest' passed at 2026-10-09 09:37:55.909
+Executed 179 tests, with 0 failures (0 unexpected) in 0.748 (0.748) seconds
+Test Suite 'All tests' passed at 2026-10-09 09:37:55.909
+Executed 179 tests, with 0 failures (0 unexpected) in 0.748 (0.748) seconds
