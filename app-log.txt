@@ -1,0 +1,60 @@
+	4   libdispatch.dylib                   0x000000018016bd3c _dispatch_client_callout + 16
+	5   libdispatch.dylib                   0x0000000180173e3c _dispatch_lane_serial_drain + 960
+	6   libdispatch.dylib                   0x00000001801749b4 _dispatch_lane_invoke + 388
+	7   libdispatch.dylib                   0x000000018017fd40 _dispatch_root_queue_drain_deferred_wlh + 276
+	8   libdispatch.dylib                   0x000000018017f38c _dispatch_workloop_worker_thread + 448
+	9   libsystem_pthread.dylib             0x00000001028937bc _pthread_wqthread + 284
+	10  libsystem_pthread.dylib             0x00000001028925c4 start_wqthread + 8
+).
+2026-10-09 09:42:04.911 Df AutoReframe[6850:5991] [com.apple.coremedia:] -AVSystemController- +[AVSystemController sharedInstance]: Failed to allocate AVSystemController, numberOfAttempts=1
+2026-10-09 09:42:04.911 Df AutoReframe[6850:5991] [com.apple.coremedia:] -AVSystemController- +[AVSystemController sharedInstance]: Failed to allocate AVSystemController, numberOfAttempts=2
+2026-10-09 09:42:04.911 Df AutoReframe[6850:5991] [com.apple.coremedia:] -AVSystemController- +[AVSystemController sharedInstance]: Failed to allocate AVSystemController, numberOfAttempts=3
+2026-10-09 09:42:04.917 Df AutoReframe[6850:5991] [com.apple.amp.mediaremote:NowPlaying] [NowPlayingInfo] Setting nowPlayingInfo with mergePolicy Replace: <NSCFDictionary 0x6000002acf60 {
+	kMRMediaRemoteNowPlayingInfoTimestamp = 2026-10-09 09:42:05 +0000
+	kMRMediaRemoteNowPlayingInfoIsAlwaysLive = 0
+	kMRMediaRemoteNowPlayingInfoDuration = 4.131666666666667
+	kMRMediaRemoteNowPlayingInfoElapsedTime = 0
+	kMRMediaRemoteNowPlayingInfoContentItemIdentifier = 91AB4F19-BB1A-4224-8F0A-7FC6C768584D
+	kMRMediaRemoteNowPlayingInfoPlaybackRate = 0
+	kMRMediaRemoteNowPlayingInfoMediaType = kMRMediaRemoteNowPlayingInfoTypeVideo
+}>
+2026-10-09 09:42:04.917 Df AutoReframe[6850:5991] [com.apple.amp.mediaremote:NowPlaying] [NowPlayingInfo] Setting nowPlayingInfo artwork: (null)
+2026-10-09 09:42:04.917 Df AutoReframe[6850:5991] [com.apple.amp.mediaremote:NowPlaying] PlaybackQueueInvalidation: NowPlayingItem for origin-iPhone-1280262988/client-app.autoreframe.AutoReframe-6850/player-MediaRemote-DefaultPlayer changed from
+ item:<(null)>
+ -> 
+item:<91AB4F19-BB1A-4224-8F0A-7FC6C768584D/PlaybackRate: 0.000000>
+2026-10-09 09:42:05.337 Df AutoReframe[6850:5991] [com.apple.VisionKit:com.apple.VisionKit.processing] Beginning MRC Parsing with 0 elements
+2026-10-09 09:42:05.337 Df AutoReframe[6850:5991] [com.apple.VisionKit:com.apple.VisionKit.processing] Completed MRC Parsing of 0 elements in 0.000242 seconds.
+2026-10-09 09:42:05.424 Df AutoReframe[6850:5991] [com.apple.VisionKit:com.apple.VisionKit.visualSearch] VisualSearchGating: Request completed: <MADVIVisualSearchGatingRequest 0x600002615b00, queryID: 12, imageType: 2, results: (
+    "<MADVIVisualSearchGatingResult 0x600002165900, resultItems: (\134n), payload: {length = 1450, bytes = 0x7b227175 65727949 44223a31 322c2261 ... 616e6422 3a22227d }>"
+), error: (null)>
+2026-10-09 09:42:05.425 Df AutoReframe[6850:5991] [com.apple.VisionKit:com.apple.VisionKit.visualSearch] VisualSearchGating: Request completed: <MADVIVisualSearchGatingResult 0x600002165900, resultItems: (
+), payload: {length = 1450, bytes = 0x7b227175 65727949 44223a31 322c2261 ... 616e6422 3a22227d }>
+2026-10-09 09:42:05.426 Df AutoReframe[6850:5990] [com.apple.VisionKit:com.apple.VisionKit.processing] Request completed: <VKCImageAnalyzerRequest: 0x600003d14c30> requestID: 1 madRequestID: 1 cancelled: NO
+2026-10-09 09:42:05.426 Df AutoReframe[6850:5990] [com.apple.VisionKit:com.apple.VisionKit.processing] Calling completion handler For Request ID:1
+Total Processing Time 913.34ms
+Has Analysis: YES
+TextLength: 0 DD: 0, MRC: 0, VS:0 
+request: <VKCImageAnalyzerRequest: 0x600003d14c30> requestID: 1 madRequestID: 1 cancelled: NO
+Error: (null)
+2026-10-09 09:42:05.462 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Setting DDTypes: All for baseView: <VKCImageAnalysisBaseView: 0x102c4ed10>
+Parent Interaction: (null)
+Request requestID: 0
+2026-10-09 09:42:05.487 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Interaction <VKCImageAnalysisInteraction: 0x60000398e220> did move to view: <AVVisualAnalysisView: 0x102c79020; frame = (0.0367232 0; 247.593 440); layer = <CALayer: 0x6000002aca80>>
+2026-10-09 09:42:05.489 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Setting Analysis: <VKCImageAnalysisResult: 0x102c76210> with requestID: 1 on interaction: <VKCImageAnalysisBaseView: 0x102c4ed10>
+Parent Interaction: <VKCImageAnalysisInteraction: 0x60000398e220>
+Request requestID: 1
+2026-10-09 09:42:05.517 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Analysis button is visible: NO requestID: 1 Interaction: <VKCImageAnalysisInteraction: 0x60000398e220>
+2026-10-09 09:42:05.517 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Setting Active Interaction Types: Text,Subject for baseView: <VKCImageAnalysisBaseView: 0x102c4ed10>
+Parent Interaction: <VKCImageAnalysisInteraction: 0x60000398e220>
+Request requestID: 1
+2026-10-09 09:42:05.518 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Beginning subject analyze delay timer for Analysis: <VKCImageAnalysisResult: 0x102c76210>
+2026-10-09 09:42:05.519 Df AutoReframe[6850:5989] (UIKitCore) Warning: -[UITextInteractionAssistant selectionView] now returns nil with redesigned_text_cursor=on.
+2026-10-09 09:42:05.523 E  AutoReframe[6850:5990] [com.apple.Translation:VisualTranslation] Visual isTranslatable: NO; reason: observation failure: noObservations
+2026-10-09 09:42:05.526 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Translation Check completed with result: NO for analysis: <VKCImageAnalysisResult: 0x102c76210>
+2026-10-09 09:42:05.526 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.interaction] Check for is analysis all data detectors completed with result: YES for analysis: <VKCImageAnalysisResult: 0x102c76210>
+2026-10-09 09:42:06.529 Df AutoReframe[6850:5989] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Subject analyze delay complete Analysis: <VKCImageAnalysisResult: 0x102c76210>
+2026-10-09 09:42:06.537 Df AutoReframe[6850:59ab] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Beginning Remove Subject for analysis: <VKCImageAnalysisResult: 0x102c76210>
+2026-10-09 09:42:06.538 E  AutoReframe[6850:59ab] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Request to remove background on an unsupported device. Error Domain=com.apple.VisionKit.RemoveBackground Code=-8 "(null)"
+2026-10-09 09:42:06.538 E  AutoReframe[6850:59ab] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Error generating mask only remove background image for analysis: <VKCImageAnalysisResult: 0x102c76210> - Error Domain=com.apple.VisionKit.RemoveBackground Code=-8 "(null)"
+2026-10-09 09:42:21.712 Df AutoReframe[6850:5989] [com.apple.photos.backend:Backend] PLAccountStore accountDidChange, clearing cached properties.

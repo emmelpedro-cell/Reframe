@@ -1,0 +1,11 @@
+build simulador: código 0
+** BUILD SUCCEEDED **
+simulador: E3BBCD6B-A52D-45EF-B6E0-96D3151F472D
+app.autoreframe.AutoReframe: 4450
+app.autoreframe.AutoReframe: 5164
+video de teste: /Users/runner/work/Reframe/Reframe/ScreenRecording_10-09-2026 00-44-26_1.mov
+app.autoreframe.AutoReframe: 5816
+app.autoreframe.AutoReframe: 6850
+build aparelho: código 0
+** BUILD SUCCEEDED **
+-rw-r--r--  1 runner  staff  352073 Oct  9 09:43 /Users/runner/work/Reframe/Reframe/out-app/AutoReframe.ipa
