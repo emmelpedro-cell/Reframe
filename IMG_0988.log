@@ -1,0 +1,32 @@
+IOServiceMatchingfailed for: AppleM2ScalerCSCDriver
+tracking 0%
+tracking 10%
+tracking 20%
+tracking 30%
+tracking 40%
+tracking 50%
+tracking 60%
+tracking 70%
+tracking 80%
+tracking 90%
+frames: 373  fps: 30.00  duração: 12.43s
+exibição: 1920x1080  análise: 960x540
+estados: tracking=371 held=1 lost=1 acquiring=0  sujeitos=1
+erros do tracker: 0  timestamps descartados: 0
+JSON: out/IMG_0988.json
+vídeo de debug: out/IMG_0988.debug.mp4
+-- render
+IOServiceMatchingfailed for: AppleM2ScalerCSCDriver
+render 0%
+render 10%
+render 20%
+render 30%
+render 40%
+render 50%
+render 60%
+render 70%
+render 80%
+render 90%
+saída: 608x1080  frames: 373
+orientação do arquivo: rotated180  áudio: copiado sem recodificar  estilo: suave  One Euro: não
+vídeo: out/IMG_0988.vertical-suave.mp4

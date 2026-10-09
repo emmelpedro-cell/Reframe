@@ -1,0 +1,4491 @@
+{
+  "analysisSize" : {
+    "height" : 540,
+    "width" : 960
+  },
+  "displaySize" : {
+    "height" : 1080,
+    "width" : 1920
+  },
+  "duration" : 12.433333333333334,
+  "fps" : 30,
+  "points" : [
+    {
+      "boundingBox" : {
+        "height" : 0.9946957769295562,
+        "width" : 0.4056027915097289,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.61838865,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9946957769295562,
+        "width" : 0.4056027915097289,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.03333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9667732521339699,
+        "width" : 0.4138695398966471,
+        "x" : 0.003068097432454427,
+        "y" : 0
+      },
+      "confidence" : 0.922,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.06666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9588824236834491,
+        "width" : 0.41740506490071616,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.916,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9580877233434606,
+        "width" : 0.41808904012044273,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.914,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.13333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9586330837673613,
+        "width" : 0.4191828409830729,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.916,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.16666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9594894974320023,
+        "width" : 0.42065099080403645,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.915,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9603812888816549,
+        "width" : 0.421852175394694,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.914,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.23333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.961175537109375,
+        "width" : 0.4224939982096354,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.913,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.26666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9619127061631945,
+        "width" : 0.4225921630859375,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.913,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9625738073278356,
+        "width" : 0.42286014556884766,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.913,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.3333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9612345377604167,
+        "width" : 0.4231817881266276,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.914,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.36666666666666664
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9443865740740742,
+        "width" : 0.41514517466227213,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.932,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9465452971281829,
+        "width" : 0.4095172882080078,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.943,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.43333333333333335
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9473207826967592,
+        "width" : 0.4124413808186849,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.946,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.4666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9949357237576745,
+        "width" : 0.40568236371334976,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.6164131,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9949357237576745,
+        "width" : 0.40568236371334976,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.5333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9685369420934604,
+        "width" : 0.4148451169331868,
+        "x" : 0.002431329091389974,
+        "y" : 0
+      },
+      "confidence" : 0.923,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.5666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9572635226779513,
+        "width" : 0.41746927897135416,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.932,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.955661462854456,
+        "width" : 0.41719303131103513,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.6333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9541187427662037,
+        "width" : 0.4159519195556641,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.6666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9542263454861108,
+        "width" : 0.41513519287109374,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.95488518608941,
+        "width" : 0.4144748687744141,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.7333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9531834355107061,
+        "width" : 0.4131201426188151,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.7666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9525226734302662,
+        "width" : 0.41186510721842445,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9538840964988425,
+        "width" : 0.4114127477010091,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.942,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.8333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.954299474645544,
+        "width" : 0.41048393249511717,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.8666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9532760054976854,
+        "width" : 0.4098263422648112,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9515207926432292,
+        "width" : 0.40992279052734376,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.9333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9511870207609954,
+        "width" : 0.409680430094401,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.934,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 0.9666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9947316040279779,
+        "width" : 0.39090106693152504,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.60947376,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9947316040279778,
+        "width" : 0.39090106693152504,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.0333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9677804452401623,
+        "width" : 0.3989731152852376,
+        "x" : 0.0047699928283691405,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.0666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9531748453776042,
+        "width" : 0.40288025538126626,
+        "x" : 0.005610243479410807,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9492620397497107,
+        "width" : 0.4056256612141926,
+        "x" : 0.006229845682780066,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.1333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9469576235170718,
+        "width" : 0.408489990234375,
+        "x" : 0.009362220764160156,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.1666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9459031846788195,
+        "width" : 0.41228768030802404,
+        "x" : 0.01252902348836263,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9440348307291667,
+        "width" : 0.4164767265319824,
+        "x" : 0.01587788263956706,
+        "y" : 0
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.2333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9465693721064814,
+        "width" : 0.42094341913859046,
+        "x" : 0.020566399892171225,
+        "y" : 0
+      },
+      "confidence" : 0.929,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.2666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.945109784161603,
+        "width" : 0.422636604309082,
+        "x" : 0.029046058654785156,
+        "y" : 0.0014134159794560186
+      },
+      "confidence" : 0.915,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9427109894929109,
+        "width" : 0.42409934997558596,
+        "x" : 0.036800511678059894,
+        "y" : 0.002705100730613426
+      },
+      "confidence" : 0.917,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.3333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9478058991608797,
+        "width" : 0.4251107215881348,
+        "x" : 0.04687840143839518,
+        "y" : 0.002054172092013889
+      },
+      "confidence" : 0.925,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.3666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9551486545138889,
+        "width" : 0.42599293390909837,
+        "x" : 0.06068881352742513,
+        "y" : 0
+      },
+      "confidence" : 0.928,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9611428719979745,
+        "width" : 0.4243530909220378,
+        "x" : 0.07386140823364258,
+        "y" : 0
+      },
+      "confidence" : 0.929,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.4333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.96480712890625,
+        "width" : 0.41917568842569985,
+        "x" : 0.09278999964396159,
+        "y" : 0
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.4666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.988517662864299,
+        "width" : 0.4793157987349922,
+        "x" : 0,
+        "y" : 0.007904588413172558
+      },
+      "confidence" : 0.56492245,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.988517662864299,
+        "width" : 0.4793157987349922,
+        "x" : 0,
+        "y" : 0.007904588413172558
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.5333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9949068422670717,
+        "width" : 0.48888737360636375,
+        "x" : 0.026346302032470823,
+        "y" : 0.005093157732928241
+      },
+      "confidence" : 0.963,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.5666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9976318359375,
+        "width" : 0.4914997736612956,
+        "x" : 0.04812676111857096,
+        "y" : 0.0023681640625
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9955550582320601,
+        "width" : 0.5015449841817219,
+        "x" : 0.05762879053751639,
+        "y" : 0.004444941767939815
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.6333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9887567590784143,
+        "width" : 0.5084253946940104,
+        "x" : 0.07148462931315104,
+        "y" : 0.011243240921585648
+      },
+      "confidence" : 0.976,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.6666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.986692527488426,
+        "width" : 0.5161785125732422,
+        "x" : 0.07896442413330078,
+        "y" : 0.013307472511574074
+      },
+      "confidence" : 0.975,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9856413664641204,
+        "width" : 0.5249758720397949,
+        "x" : 0.08604472478230794,
+        "y" : 0.01435863353587963
+      },
+      "confidence" : 0.974,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.7333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9888014051649305,
+        "width" : 0.5279707272847494,
+        "x" : 0.09713328679402669,
+        "y" : 0.011198594835069445
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.7666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9907099971064814,
+        "width" : 0.5272256533304851,
+        "x" : 0.10837100346883138,
+        "y" : 0.009290002893518518
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9912873444733796,
+        "width" : 0.5287928899129233,
+        "x" : 0.11625839869181315,
+        "y" : 0.00871265552662037
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.8333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9875185366030093,
+        "width" : 0.5313145319620768,
+        "x" : 0.12486874262491862,
+        "y" : 0.01248146339699074
+      },
+      "confidence" : 0.968,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.8666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9847475405092593,
+        "width" : 0.5311580340067545,
+        "x" : 0.1359885851542155,
+        "y" : 0.015252459490740741
+      },
+      "confidence" : 0.959,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9857026276765046,
+        "width" : 0.5291332880655926,
+        "x" : 0.14592161178588856,
+        "y" : 0.01429737232349537
+      },
+      "confidence" : 0.952,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.9333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9859903971354167,
+        "width" : 0.5265460650126137,
+        "x" : 0.1530734697977703,
+        "y" : 0.014009602864583333
+      },
+      "confidence" : 0.947,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 1.9666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9855917471426504,
+        "width" : 0.5259069124857585,
+        "x" : 0.15904588699340821,
+        "y" : 0.014408252857349537
+      },
+      "confidence" : 0.945,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9855917471426504,
+        "width" : 0.5259069124857585,
+        "x" : 0.15904588699340821,
+        "y" : 0.014408252857349537
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9832570393880209,
+        "width" : 0.5291378974914551,
+        "x" : 0.16902310053507488,
+        "y" : 0.00621337890625
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.066666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9839197229456018,
+        "width" : 0.5312340418497721,
+        "x" : 0.1748461087544759,
+        "y" : 0.0013561107494212963
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9831000434027778,
+        "width" : 0.5320708592732746,
+        "x" : 0.18191881179809583,
+        "y" : 0
+      },
+      "confidence" : 0.969,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.1333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9841243037471062,
+        "width" : 0.5328230857849121,
+        "x" : 0.18876886367797852,
+        "y" : 0
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.1666666666666665
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9856488263165509,
+        "width" : 0.5343116760253906,
+        "x" : 0.1954001744588216,
+        "y" : 0
+      },
+      "confidence" : 0.959,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9875042950665509,
+        "width" : 0.5358689626057942,
+        "x" : 0.20003156661987304,
+        "y" : 0
+      },
+      "confidence" : 0.953,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.2333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9892103407118056,
+        "width" : 0.5353950500488281,
+        "x" : 0.20444666544596354,
+        "y" : 0
+      },
+      "confidence" : 0.947,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.2666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9895391393590857,
+        "width" : 0.5355984369913735,
+        "x" : 0.20622822443644218,
+        "y" : 0
+      },
+      "confidence" : 0.941,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9898926911530671,
+        "width" : 0.5369045893351237,
+        "x" : 0.2061161677042642,
+        "y" : 0
+      },
+      "confidence" : 0.938,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.3333333333333335
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.990535255714699,
+        "width" : 0.5379945755004882,
+        "x" : 0.20540040334065754,
+        "y" : 0
+      },
+      "confidence" : 0.936,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.3666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9904204191984953,
+        "width" : 0.5370869954427084,
+        "x" : 0.20483277638753256,
+        "y" : 0
+      },
+      "confidence" : 0.935,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.990679931640625,
+        "width" : 0.535210355122884,
+        "x" : 0.20405337015787772,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.433333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.993232105396412,
+        "width" : 0.5331336975097656,
+        "x" : 0.2035215377807617,
+        "y" : 0
+      },
+      "confidence" : 0.936,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.988517662864299,
+        "width" : 0.4793157987349922,
+        "x" : 0,
+        "y" : 0.007904588413172558
+      },
+      "confidence" : 0.6552,
+      "state" : "held",
+      "subjectID" : 1,
+      "time" : 2.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.988517662864299,
+        "width" : 0.4793157987349922,
+        "x" : 0,
+        "y" : 0.007904588413172558
+      },
+      "confidence" : 0,
+      "state" : "lost",
+      "subjectID" : 1,
+      "time" : 2.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9910905757444955,
+        "width" : 0.48628707479073013,
+        "x" : 0.21050706662561042,
+        "y" : 0.0071564392507601346
+      },
+      "confidence" : 0.57077825,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.566666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9910905757444955,
+        "width" : 0.48628707479073013,
+        "x" : 0.21050706662561042,
+        "y" : 0.0071564392507601346
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9813499168113425,
+        "width" : 0.486762809753418,
+        "x" : 0.21518850326538086,
+        "y" : 0
+      },
+      "confidence" : 0.922,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.6333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9713165283203125,
+        "width" : 0.48604618708292635,
+        "x" : 0.214416535695394,
+        "y" : 0
+      },
+      "confidence" : 0.931,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.6666666666666665
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9643455222800926,
+        "width" : 0.48649819691975904,
+        "x" : 0.21340837478637695,
+        "y" : 0
+      },
+      "confidence" : 0.922,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9608616581669558,
+        "width" : 0.4872589429219563,
+        "x" : 0.21457738876342775,
+        "y" : 0
+      },
+      "confidence" : 0.904,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.7333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9568039505570023,
+        "width" : 0.4870408376057942,
+        "x" : 0.21695365905761718,
+        "y" : 0
+      },
+      "confidence" : 0.893,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.7666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9492476851851852,
+        "width" : 0.48662052154541013,
+        "x" : 0.2195534070332845,
+        "y" : 0
+      },
+      "confidence" : 0.885,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9417038529007522,
+        "width" : 0.4865893363952637,
+        "x" : 0.22350422541300455,
+        "y" : 0
+      },
+      "confidence" : 0.886,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.8333333333333335
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.937602968569155,
+        "width" : 0.48814175923665365,
+        "x" : 0.22696898778279623,
+        "y" : 0
+      },
+      "confidence" : 0.872,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.8666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9381761338975695,
+        "width" : 0.490837319691976,
+        "x" : 0.2307489713033039,
+        "y" : 0
+      },
+      "confidence" : 0.858,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9546592429832174,
+        "width" : 0.48854204813639324,
+        "x" : 0.29139750798543296,
+        "y" : 0
+      },
+      "confidence" : 0.884,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.933333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9616415518301504,
+        "width" : 0.49207995732625326,
+        "x" : 0.2873807112375895,
+        "y" : 0
+      },
+      "confidence" : 0.895,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 2.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9686275906032986,
+        "width" : 0.4995522181193034,
+        "x" : 0.2828035990397135,
+        "y" : 0
+      },
+      "confidence" : 0.894,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9739202428747107,
+        "width" : 0.5105667114257812,
+        "x" : 0.27800874710083007,
+        "y" : 0
+      },
+      "confidence" : 0.884,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9779212103949653,
+        "width" : 0.520591926574707,
+        "x" : 0.27356068293253594,
+        "y" : 0
+      },
+      "confidence" : 0.879,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.066666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9779212103949653,
+        "width" : 0.520591926574707,
+        "x" : 0.27356068293253594,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9764798764829282,
+        "width" : 0.5128808975219727,
+        "x" : 0.3343242327372233,
+        "y" : 0
+      },
+      "confidence" : 0.949,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.1333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9800629792390047,
+        "width" : 0.5095590909322103,
+        "x" : 0.33477349281311036,
+        "y" : 0
+      },
+      "confidence" : 0.958,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.1666666666666665
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9823202627676507,
+        "width" : 0.505096213022868,
+        "x" : 0.3400622208913166,
+        "y" : 0
+      },
+      "confidence" : 0.959,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9873554371021412,
+        "width" : 0.5015040715535481,
+        "x" : 0.35085058212280273,
+        "y" : 0
+      },
+      "confidence" : 0.956,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.2333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9888590494791667,
+        "width" : 0.5006049156188965,
+        "x" : 0.36220266024271647,
+        "y" : 0
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.2666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9887663664641204,
+        "width" : 0.5014045397440594,
+        "x" : 0.3741213003794351,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9868366382740162,
+        "width" : 0.501030158996582,
+        "x" : 0.385584290822347,
+        "y" : 0
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.3333333333333335
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9837804723668981,
+        "width" : 0.49833542505900047,
+        "x" : 0.39696351687113457,
+        "y" : 0
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.3666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9813447175202547,
+        "width" : 0.4938287099202474,
+        "x" : 0.40666446685791013,
+        "y" : 0
+      },
+      "confidence" : 0.969,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9776614718967014,
+        "width" : 0.4907506624857585,
+        "x" : 0.4102428913116455,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.433333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9717789261429398,
+        "width" : 0.48612117767333984,
+        "x" : 0.4157890319824219,
+        "y" : 0
+      },
+      "confidence" : 0.971,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.97148516619647,
+        "width" : 0.4806534131368001,
+        "x" : 0.42298293113708496,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9688200774016201,
+        "width" : 0.4769404093424479,
+        "x" : 0.42795530954996747,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9994283977103351,
+        "width" : 0.5551595101767447,
+        "x" : 0.4421130815308011,
+        "y" : 0.000571602289664952
+      },
+      "confidence" : 0.6995339,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.566666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9994283977103351,
+        "width" : 0.5551595101767447,
+        "x" : 0.4421130815308011,
+        "y" : 0.000571602289664952
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9912588614004629,
+        "width" : 0.5431932449340822,
+        "x" : 0.4469378789265949,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.6333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9929993806061921,
+        "width" : 0.5350886027018229,
+        "x" : 0.45626328786214193,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.6666666666666665
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9920665599681713,
+        "width" : 0.5336669921875,
+        "x" : 0.4573951721191406,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9946107087311922,
+        "width" : 0.5329644521077473,
+        "x" : 0.4583096186319987,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.7333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9961122866030092,
+        "width" : 0.5320408821105957,
+        "x" : 0.4575127760569255,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.7666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9980335376880787,
+        "width" : 0.5315956751505533,
+        "x" : 0.45369269053141276,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.998377369068287,
+        "width" : 0.5300452550252278,
+        "x" : 0.45006564458211273,
+        "y" : 0.001622630931712963
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.8333333333333335
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9921237521701389,
+        "width" : 0.530009110768636,
+        "x" : 0.44672338167826336,
+        "y" : 0.007876247829861112
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.8666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9886024757667824,
+        "width" : 0.5304197629292806,
+        "x" : 0.4454232692718506,
+        "y" : 0.011397524233217592
+      },
+      "confidence" : 0.991,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9884707980685764,
+        "width" : 0.5282485326131185,
+        "x" : 0.44456179936726886,
+        "y" : 0.011529201931423611
+      },
+      "confidence" : 0.992,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.933333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9863012243200231,
+        "width" : 0.5273102124532065,
+        "x" : 0.44389112790425606,
+        "y" : 0.013698775679976852
+      },
+      "confidence" : 0.992,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 3.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9850886592158565,
+        "width" : 0.5264150301615398,
+        "x" : 0.44522960980733234,
+        "y" : 0.014911340784143518
+      },
+      "confidence" : 0.992,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9846427634910301,
+        "width" : 0.5252443313598633,
+        "x" : 0.4460229555765788,
+        "y" : 0.015357236508969908
+      },
+      "confidence" : 0.992,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9856981065538194,
+        "width" : 0.5239277521769206,
+        "x" : 0.447321351369222,
+        "y" : 0.014301893446180556
+      },
+      "confidence" : 0.991,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9856981065538194,
+        "width" : 0.5239277521769206,
+        "x" : 0.447321351369222,
+        "y" : 0.014301893446180556
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9819636592158565,
+        "width" : 0.5231816291809082,
+        "x" : 0.45271077156066897,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.133333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9920614737051504,
+        "width" : 0.5244200706481934,
+        "x" : 0.4527249813079833,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.166666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9854772497106481,
+        "width" : 0.5200249036153157,
+        "x" : 0.4594331900278727,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9906711154513889,
+        "width" : 0.5216235160827636,
+        "x" : 0.45760340690612794,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9860003436053243,
+        "width" : 0.5202300389607747,
+        "x" : 0.4626311937967936,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9890656647858797,
+        "width" : 0.5228897730509439,
+        "x" : 0.4619733810424806,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9834997106481481,
+        "width" : 0.5230159123738607,
+        "x" : 0.4669942855834961,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9862865306712963,
+        "width" : 0.5246101379394531,
+        "x" : 0.46857128143310545,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.366666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9813264069733796,
+        "width" : 0.5234004338582356,
+        "x" : 0.47582195599873867,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9798357928240741,
+        "width" : 0.5180883725484212,
+        "x" : 0.4819097995758057,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9775562427662037,
+        "width" : 0.5107161521911622,
+        "x" : 0.4892838478088378,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9776511863425926,
+        "width" : 0.5043980598449707,
+        "x" : 0.49560194015502934,
+        "y" : 0
+      },
+      "confidence" : 0.985,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9786933051215277,
+        "width" : 0.49753209749857574,
+        "x" : 0.5024679025014243,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.996008579582142,
+        "width" : 0.4362500669686141,
+        "x" : 0.5631963752459189,
+        "y" : 0.0018401453330499054
+      },
+      "confidence" : 0.5636619,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.996008579582142,
+        "width" : 0.4362500669686141,
+        "x" : 0.5631963752459189,
+        "y" : 0.0018401453330499054
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9931532118055556,
+        "width" : 0.4338533719380697,
+        "x" : 0.5601761976877848,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.633333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9942773889612269,
+        "width" : 0.428787104288737,
+        "x" : 0.5658631006876628,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9946756998697917,
+        "width" : 0.4264358202616374,
+        "x" : 0.5701460202534994,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9957368073640046,
+        "width" : 0.42529061635335286,
+        "x" : 0.5741473833719889,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9945836950231481,
+        "width" : 0.4227800528208415,
+        "x" : 0.5772199471791585,
+        "y" : 0
+      },
+      "confidence" : 0.983,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9939607973451967,
+        "width" : 0.41943257649739585,
+        "x" : 0.5805674235026042,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9925965485749422,
+        "width" : 0.4169175942738851,
+        "x" : 0.5830824057261149,
+        "y" : 0
+      },
+      "confidence" : 0.983,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.833333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9928221525969328,
+        "width" : 0.4151057561238607,
+        "x" : 0.5848942438761393,
+        "y" : 0
+      },
+      "confidence" : 0.983,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.866666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9903361002604166,
+        "width" : 0.41377635002136226,
+        "x" : 0.5862236499786377,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9890431722005208,
+        "width" : 0.41308237711588547,
+        "x" : 0.5869176228841145,
+        "y" : 0
+      },
+      "confidence" : 0.983,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.988367603443287,
+        "width" : 0.41301472981770837,
+        "x" : 0.5869852701822916,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 4.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9869580304181135,
+        "width" : 0.41480002403259275,
+        "x" : 0.5851999759674072,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9840398717809606,
+        "width" : 0.41864148775736487,
+        "x" : 0.5813585122426351,
+        "y" : 0
+      },
+      "confidence" : 0.985,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9998023853675518,
+        "width" : 0.44229166301339784,
+        "x" : 0.5577083369866022,
+        "y" : 0
+      },
+      "confidence" : 0.6358211,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.999802385367552,
+        "width" : 0.44229166301339784,
+        "x" : 0.5577083369866022,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9925583450882524,
+        "width" : 0.43872509002685545,
+        "x" : 0.5465526898701986,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.133333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9973680284288197,
+        "width" : 0.435473378499349,
+        "x" : 0.5408692995707194,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.166666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9979199444806134,
+        "width" : 0.4383100509643555,
+        "x" : 0.533316167195638,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9967104311342593,
+        "width" : 0.4480349222819011,
+        "x" : 0.5210413297017414,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9959558557581019,
+        "width" : 0.4557817141215006,
+        "x" : 0.5108197530110677,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9934599699797454,
+        "width" : 0.45767828623453777,
+        "x" : 0.4967792193094889,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9947240758825231,
+        "width" : 0.46074066162109373,
+        "x" : 0.4764327685038249,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9953213161892361,
+        "width" : 0.4581259409586589,
+        "x" : 0.46363067626953125,
+        "y" : 0
+      },
+      "confidence" : 0.982,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.366666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9923613371672454,
+        "width" : 0.4500340461730957,
+        "x" : 0.449076509475708,
+        "y" : 0
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9949957953559028,
+        "width" : 0.4461124738057455,
+        "x" : 0.4389025847117106,
+        "y" : 0
+      },
+      "confidence" : 0.974,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9960547553168403,
+        "width" : 0.4427954355875652,
+        "x" : 0.4304667472839355,
+        "y" : 0
+      },
+      "confidence" : 0.976,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9955969916449653,
+        "width" : 0.44050664901733394,
+        "x" : 0.4201056003570557,
+        "y" : 0.001989180953414352
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9923129611545138,
+        "width" : 0.43579044342041023,
+        "x" : 0.4108613650004069,
+        "y" : 0.007687038845486111
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9842644585503472,
+        "width" : 0.4281452814737956,
+        "x" : 0.4023813565572103,
+        "y" : 0.012830607096354167
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9842644585503472,
+        "width" : 0.4281452814737956,
+        "x" : 0.4023813565572103,
+        "y" : 0.012830607096354167
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9521389431423612,
+        "width" : 0.42342761357625325,
+        "x" : 0.3914616107940674,
+        "y" : 0
+      },
+      "confidence" : 0.963,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.633333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9507440637659144,
+        "width" : 0.4207446098327637,
+        "x" : 0.38467357953389486,
+        "y" : 0
+      },
+      "confidence" : 0.95,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9459842258029514,
+        "width" : 0.4192120869954427,
+        "x" : 0.37667258580525714,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9463504367404515,
+        "width" : 0.41970523198445636,
+        "x" : 0.3670409997304281,
+        "y" : 0
+      },
+      "confidence" : 0.937,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9435188576027199,
+        "width" : 0.4196520805358886,
+        "x" : 0.35821903546651207,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9407939769603587,
+        "width" : 0.42038917541503906,
+        "x" : 0.347746467590332,
+        "y" : 0
+      },
+      "confidence" : 0.941,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9412933349609375,
+        "width" : 0.41963291168212885,
+        "x" : 0.3375173886617025,
+        "y" : 0
+      },
+      "confidence" : 0.936,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.833333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9421906647858797,
+        "width" : 0.4196380297342936,
+        "x" : 0.32841010093688966,
+        "y" : 0
+      },
+      "confidence" : 0.936,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.866666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9414933946397569,
+        "width" : 0.42059122721354164,
+        "x" : 0.31900949478149415,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9404151633933739,
+        "width" : 0.42195599873860684,
+        "x" : 0.3089345614115397,
+        "y" : 0
+      },
+      "confidence" : 0.94,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9406719066478586,
+        "width" : 0.42407992680867496,
+        "x" : 0.29881874720255547,
+        "y" : 0
+      },
+      "confidence" : 0.939,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 5.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9340484619140625,
+        "width" : 0.42491089502970375,
+        "x" : 0.28893264134724933,
+        "y" : 0
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9271790681061922,
+        "width" : 0.4262409528096517,
+        "x" : 0.27790117263793945,
+        "y" : 0
+      },
+      "confidence" : 0.929,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.991211486101776,
+        "width" : 0.4621211753650126,
+        "x" : 0.3164062255527824,
+        "y" : 0.006729193141730623
+      },
+      "confidence" : 0.6366711,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.991211486101776,
+        "width" : 0.4621211753650126,
+        "x" : 0.3164062255527824,
+        "y" : 0.006729193141730623
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9550194634331597,
+        "width" : 0.47919095357259117,
+        "x" : 0.28929306666056315,
+        "y" : 0
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.133333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9503455268012153,
+        "width" : 0.4870620727539063,
+        "x" : 0.27783276240030924,
+        "y" : 0
+      },
+      "confidence" : 0.971,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.166666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.948372960973669,
+        "width" : 0.49246527353922526,
+        "x" : 0.2693828264872233,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9458262125651041,
+        "width" : 0.4968526522318522,
+        "x" : 0.2607525666554769,
+        "y" : 0
+      },
+      "confidence" : 0.968,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9447870325159144,
+        "width" : 0.5014488855997722,
+        "x" : 0.252039877573649,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9433932834201388,
+        "width" : 0.505716864267985,
+        "x" : 0.2436712423960368,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9386864556206598,
+        "width" : 0.5113710721333822,
+        "x" : 0.23477107683817547,
+        "y" : 0
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9349626329210069,
+        "width" : 0.5147567113240561,
+        "x" : 0.22795565923055,
+        "y" : 0
+      },
+      "confidence" : 0.968,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.366666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9330356174045139,
+        "width" : 0.5192459106445314,
+        "x" : 0.22135826746622708,
+        "y" : 0
+      },
+      "confidence" : 0.968,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9322524459273727,
+        "width" : 0.5243508974711102,
+        "x" : 0.21582201321919747,
+        "y" : 0
+      },
+      "confidence" : 0.967,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9370984112774885,
+        "width" : 0.5311360994974772,
+        "x" : 0.20758452415466308,
+        "y" : 0
+      },
+      "confidence" : 0.967,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9434530752676503,
+        "width" : 0.5380813598632812,
+        "x" : 0.19949232737223307,
+        "y" : 0
+      },
+      "confidence" : 0.969,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9494021945529514,
+        "width" : 0.5449570973714193,
+        "x" : 0.19155025482177734,
+        "y" : 0
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.992220852868897,
+        "width" : 0.5694285834823333,
+        "x" : 0.1425286820839183,
+        "y" : 0.00379008033431142
+      },
+      "confidence" : 0.57062924,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.992220852868897,
+        "width" : 0.5694285834823333,
+        "x" : 0.1425286820839183,
+        "y" : 0.00379008033431142
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9703986273871525,
+        "width" : 0.5835121154785157,
+        "x" : 0.11556116739908855,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.633333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9825846354166666,
+        "width" : 0.5913829167683919,
+        "x" : 0.10225254694620768,
+        "y" : 0
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9831073902271412,
+        "width" : 0.6053803126017253,
+        "x" : 0.08369881312052409,
+        "y" : 0
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9793681957103588,
+        "width" : 0.6120616912841796,
+        "x" : 0.0754330317179362,
+        "y" : 0
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9821474428530093,
+        "width" : 0.6159995396931967,
+        "x" : 0.06717634201049805,
+        "y" : 0
+      },
+      "confidence" : 0.955,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9850990577980324,
+        "width" : 0.6206406275431315,
+        "x" : 0.05567471186319987,
+        "y" : 0
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9892153139467592,
+        "width" : 0.6267754236857096,
+        "x" : 0.04500919977823893,
+        "y" : 0
+      },
+      "confidence" : 0.954,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.833333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9861245614510995,
+        "width" : 0.6254995346069336,
+        "x" : 0.032060527801513555,
+        "y" : 0
+      },
+      "confidence" : 0.938,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.866666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9847873263888889,
+        "width" : 0.626453717549642,
+        "x" : 0.017091019948323568,
+        "y" : 0
+      },
+      "confidence" : 0.932,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9861437762225116,
+        "width" : 0.6218310674031575,
+        "x" : 0.0012038230895996093,
+        "y" : 0
+      },
+      "confidence" : 0.935,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9886601200810186,
+        "width" : 0.6022809982299805,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.931,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 6.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9905904134114584,
+        "width" : 0.5821407953898112,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.926,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9928125452112269,
+        "width" : 0.5639800707499186,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.925,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9954000013885569,
+        "width" : 0.4433242479559517,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.6568464,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9954000013885569,
+        "width" : 0.4433242479559517,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9636609112774884,
+        "width" : 0.43814608256022136,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.133333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9511383056640625,
+        "width" : 0.426463254292806,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.954,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.166666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.947086927625868,
+        "width" : 0.4197734832763672,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.955,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9406296341507522,
+        "width" : 0.41171417236328123,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.954,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9380418565538194,
+        "width" : 0.4036347071329753,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.955,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9373646488896122,
+        "width" : 0.3978218714396159,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.952,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9383508187753183,
+        "width" : 0.39169419606526695,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.949,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.333333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9353931003146702,
+        "width" : 0.38640041351318355,
+        "x" : 0,
+        "y" : 0.004136375144675926
+      },
+      "confidence" : 0.943,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.366666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9333744755497685,
+        "width" : 0.3837715148925781,
+        "x" : 0,
+        "y" : 0.009919795283564814
+      },
+      "confidence" : 0.941,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9318197179723668,
+        "width" : 0.3809357961018881,
+        "x" : 0,
+        "y" : 0.014737842701099537
+      },
+      "confidence" : 0.934,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9311909993489583,
+        "width" : 0.37866071065266926,
+        "x" : 0,
+        "y" : 0.01631492332175926
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9287199232313368,
+        "width" : 0.3772102991739909,
+        "x" : 0,
+        "y" : 0.018508345992476853
+      },
+      "confidence" : 0.933,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9254262853551793,
+        "width" : 0.3760828653971354,
+        "x" : 0,
+        "y" : 0.020296563042534722
+      },
+      "confidence" : 0.932,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9982629877117218,
+        "width" : 0.34309990440964316,
+        "x" : 0.0013250947472499774,
+        "y" : 0
+      },
+      "confidence" : 0.588261,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9982629877117218,
+        "width" : 0.34309990440964316,
+        "x" : 0.0013250947472499774,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9525927508318863,
+        "width" : 0.32965014775594076,
+        "x" : 0.008827877044677735,
+        "y" : 0
+      },
+      "confidence" : 0.9,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.633333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9333982114438658,
+        "width" : 0.32240079243977876,
+        "x" : 0.018338521321614464,
+        "y" : 0
+      },
+      "confidence" : 0.902,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.666666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.917784344708478,
+        "width" : 0.35286963780721026,
+        "x" : 0.011702251434326173,
+        "y" : 0.0029586226851851852
+      },
+      "confidence" : 0.912,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.908546221697772,
+        "width" : 0.37562662760416665,
+        "x" : 0.010489972432454427,
+        "y" : 0.004848338939525463
+      },
+      "confidence" : 0.896,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9036056518554687,
+        "width" : 0.3931241671244303,
+        "x" : 0.011803849538167318,
+        "y" : 0.004091729058159722
+      },
+      "confidence" : 0.897,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8998878761574074,
+        "width" : 0.40656750996907554,
+        "x" : 0.016712697347005208,
+        "y" : 0.008303493923611112
+      },
+      "confidence" : 0.912,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9019447044089989,
+        "width" : 0.4150840759277345,
+        "x" : 0.0254548390706379,
+        "y" : 0.011440361870659723
+      },
+      "confidence" : 0.92,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.833333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9048486780237268,
+        "width" : 0.41670586268107085,
+        "x" : 0.038704903920491654,
+        "y" : 0.014336706090856481
+      },
+      "confidence" : 0.905,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.866666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.903778980396412,
+        "width" : 0.41270176569620776,
+        "x" : 0.05810823440551746,
+        "y" : 0.01456276222511574
+      },
+      "confidence" : 0.907,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8953391746238426,
+        "width" : 0.4060754776000976,
+        "x" : 0.08238286972045898,
+        "y" : 0.020155843098958334
+      },
+      "confidence" : 0.888,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8942379421657987,
+        "width" : 0.40250565210978195,
+        "x" : 0.10548887252807618,
+        "y" : 0.03097262912326389
+      },
+      "confidence" : 0.9,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 7.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8905476888020833,
+        "width" : 0.397941525777181,
+        "x" : 0.12377360661824545,
+        "y" : 0.03292100694444444
+      },
+      "confidence" : 0.911,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.888225809733073,
+        "width" : 0.39372673034667965,
+        "x" : 0.14267940521240235,
+        "y" : 0.03788474754050926
+      },
+      "confidence" : 0.906,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8849655716507523,
+        "width" : 0.3904177347819011,
+        "x" : 0.16239967346191395,
+        "y" : 0.03870035807291667
+      },
+      "confidence" : 0.896,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8849655716507523,
+        "width" : 0.3904177347819011,
+        "x" : 0.16239967346191395,
+        "y" : 0.03870035807291667
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8761526037145544,
+        "width" : 0.39237613677978517,
+        "x" : 0.17752714157104493,
+        "y" : 0.031479107892071756
+      },
+      "confidence" : 0.967,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.133333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8669702600549769,
+        "width" : 0.391291364034017,
+        "x" : 0.19495878219604493,
+        "y" : 0.030911933051215278
+      },
+      "confidence" : 0.964,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.166666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8586707221137153,
+        "width" : 0.3896849314371745,
+        "x" : 0.21231911977132162,
+        "y" : 0.0335887767650463
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8570380316840278,
+        "width" : 0.38977855046590165,
+        "x" : 0.2273280143737793,
+        "y" : 0.03440122251157408
+      },
+      "confidence" : 0.952,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8533048841688368,
+        "width" : 0.3889676729838054,
+        "x" : 0.24156656265258777,
+        "y" : 0.03464807581018518
+      },
+      "confidence" : 0.956,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.850259851526331,
+        "width" : 0.3881284395853678,
+        "x" : 0.2561635653177897,
+        "y" : 0.034769580982349536
+      },
+      "confidence" : 0.955,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8456195972583912,
+        "width" : 0.38732261657714845,
+        "x" : 0.2686258951822917,
+        "y" : 0.03357464825665509
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8405974211516203,
+        "width" : 0.3867493311564127,
+        "x" : 0.2801286061604818,
+        "y" : 0.03147605613425926
+      },
+      "confidence" : 0.958,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.366666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8359031959816262,
+        "width" : 0.3860287984212238,
+        "x" : 0.2909776369730633,
+        "y" : 0.030236025209780092
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8337064389829283,
+        "width" : 0.38537928263346355,
+        "x" : 0.30026060740152993,
+        "y" : 0.02988642939814815
+      },
+      "confidence" : 0.955,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8317902741608797,
+        "width" : 0.3846564928690593,
+        "x" : 0.309297784169515,
+        "y" : 0.03106757269965278
+      },
+      "confidence" : 0.958,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8303236219618056,
+        "width" : 0.38354771931966164,
+        "x" : 0.3189018567403156,
+        "y" : 0.03277859157986111
+      },
+      "confidence" : 0.961,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8311994764539931,
+        "width" : 0.38302262624104816,
+        "x" : 0.32760257720947267,
+        "y" : 0.03423326280381944
+      },
+      "confidence" : 0.961,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9948014397166709,
+        "width" : 0.5022765875676836,
+        "x" : 0.2113487438445844,
+        "y" : 0.0024457229685822313
+      },
+      "confidence" : 0.659359,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9948014397166709,
+        "width" : 0.5022765875676836,
+        "x" : 0.2113487438445844,
+        "y" : 0.0024457229685822313
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9901065402560764,
+        "width" : 0.49992020924886055,
+        "x" : 0.22566620508829766,
+        "y" : 0
+      },
+      "confidence" : 0.979,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.633333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9969171594690394,
+        "width" : 0.4998964945475259,
+        "x" : 0.23683897654215508,
+        "y" : 0
+      },
+      "confidence" : 0.976,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9990080656828704,
+        "width" : 0.4988855361938477,
+        "x" : 0.24453884760538738,
+        "y" : 0
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9976686830873842,
+        "width" : 0.49924491246541336,
+        "x" : 0.25306671460469565,
+        "y" : 0.0023313169126157407
+      },
+      "confidence" : 0.971,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9991086606626157,
+        "width" : 0.49973042805989587,
+        "x" : 0.2612361272176107,
+        "y" : 0.0008913393373842593
+      },
+      "confidence" : 0.971,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9984603316695602,
+        "width" : 0.5029796600341796,
+        "x" : 0.26755263010660807,
+        "y" : 0.0015396683304398147
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.999969482421875,
+        "width" : 0.5061125437418619,
+        "x" : 0.275176207224528,
+        "y" : 0
+      },
+      "confidence" : 0.972,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.833333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.999447179723669,
+        "width" : 0.5107080459594726,
+        "x" : 0.28271573384602866,
+        "y" : 0.0005528202763310185
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.866666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9990937409577546,
+        "width" : 0.5183808008829753,
+        "x" : 0.2902677853902181,
+        "y" : 0.0009062590422453704
+      },
+      "confidence" : 0.974,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9983360007957176,
+        "width" : 0.5238739013671874,
+        "x" : 0.2975751558939617,
+        "y" : 0
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9949773717809607,
+        "width" : 0.5253638267517089,
+        "x" : 0.3061613241831462,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 8.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9929846869574652,
+        "width" : 0.5264680862426758,
+        "x" : 0.313803990681966,
+        "y" : 0
+      },
+      "confidence" : 0.968,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9901689317491319,
+        "width" : 0.5294732093811035,
+        "x" : 0.32016202608744304,
+        "y" : 0
+      },
+      "confidence" : 0.966,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9983430739400662,
+        "width" : 0.5331991282057444,
+        "x" : 0.35538128693275367,
+        "y" : 0
+      },
+      "confidence" : 0.58741015,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9983430739400662,
+        "width" : 0.5331991282057444,
+        "x" : 0.35538128693275367,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9971944173177083,
+        "width" : 0.5388729731241862,
+        "x" : 0.3792690594991047,
+        "y" : 0.0028055826822916668
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.133333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.997167064525463,
+        "width" : 0.5414495468139648,
+        "x" : 0.3896208127339681,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.166666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9935828314887153,
+        "width" : 0.5408309936523438,
+        "x" : 0.3995532035827637,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9930162217881945,
+        "width" : 0.5413583119710287,
+        "x" : 0.41027682622273765,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9933711299189815,
+        "width" : 0.5396289189656576,
+        "x" : 0.4177631696065267,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9928909866898148,
+        "width" : 0.5392111460367839,
+        "x" : 0.42417271931966133,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9936376501012731,
+        "width" : 0.5369331359863281,
+        "x" : 0.4294109026590983,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9943849916811343,
+        "width" : 0.5363673528035482,
+        "x" : 0.4349582354227702,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.366666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.996122459129051,
+        "width" : 0.5362232844034831,
+        "x" : 0.44078664779663074,
+        "y" : 0
+      },
+      "confidence" : 0.985,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9986933955439815,
+        "width" : 0.5358919143676759,
+        "x" : 0.44416745503743477,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9978603786892362,
+        "width" : 0.5324930508931478,
+        "x" : 0.45254095395406085,
+        "y" : 0
+      },
+      "confidence" : 0.984,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9964353208188658,
+        "width" : 0.52620423634847,
+        "x" : 0.46404876708984377,
+        "y" : 0
+      },
+      "confidence" : 0.979,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9933883101851851,
+        "width" : 0.518754514058431,
+        "x" : 0.4752396742502848,
+        "y" : 0
+      },
+      "confidence" : 0.978,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9894477796980995,
+        "width" : 0.5236675926566449,
+        "x" : 0.47633240734335514,
+        "y" : 0.00694640781192801
+      },
+      "confidence" : 0.7453321,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9894477796980995,
+        "width" : 0.5236675926566449,
+        "x" : 0.47633240734335514,
+        "y" : 0.00694640781192801
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9984379521122685,
+        "width" : 0.5160900751749674,
+        "x" : 0.47696709632873535,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.633333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9965586344401042,
+        "width" : 0.5141415278116862,
+        "x" : 0.4808598200480143,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9952110007957176,
+        "width" : 0.5127581596374513,
+        "x" : 0.48338591257731117,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9974387839988426,
+        "width" : 0.5111487706502279,
+        "x" : 0.4870802084604898,
+        "y" : 0
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9981639720775463,
+        "width" : 0.5071218172709148,
+        "x" : 0.4912104606628418,
+        "y" : 0
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9985595703125,
+        "width" : 0.5028109232584635,
+        "x" : 0.4954007148742676,
+        "y" : 0
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9981666847511574,
+        "width" : 0.49790792465209965,
+        "x" : 0.4992006778717041,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.833333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9999396430121528,
+        "width" : 0.4948024431864422,
+        "x" : 0.5011421680450439,
+        "y" : 6.0356987847222225e-05
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.866666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9990575719762731,
+        "width" : 0.4935756683349609,
+        "x" : 0.5016310373942058,
+        "y" : 0.0009424280237268519
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9997224030671297,
+        "width" : 0.4932368914286296,
+        "x" : 0.5005222797393799,
+        "y" : 0.0002775969328703704
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9998285364221644,
+        "width" : 0.4931420644124349,
+        "x" : 0.49819674491882326,
+        "y" : 0.00017146357783564815
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 9.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9994841399016203,
+        "width" : 0.4925974527994792,
+        "x" : 0.4948309898376465,
+        "y" : 0
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9999183937355324,
+        "width" : 0.4925803820292155,
+        "x" : 0.4905414422353108,
+        "y" : 0
+      },
+      "confidence" : 0.991,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9966996755512426,
+        "width" : 0.49368800498323384,
+        "x" : 0.5063119950167662,
+        "y" : 0.001482154943813738
+      },
+      "confidence" : 0.7006532,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9966996755512426,
+        "width" : 0.49368800498323384,
+        "x" : 0.5063119950167662,
+        "y" : 0.001482154943813738
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9921034071180556,
+        "width" : 0.48627093633015955,
+        "x" : 0.49591099421183266,
+        "y" : 0.007896592881944444
+      },
+      "confidence" : 0.992,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.133333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9938586199725116,
+        "width" : 0.4826081275939941,
+        "x" : 0.4908819675445557,
+        "y" : 0.006141380027488426
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.166666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9910462556061921,
+        "width" : 0.48270130157470703,
+        "x" : 0.4817953109741211,
+        "y" : 0.00895374439380787
+      },
+      "confidence" : 0.991,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9923208731192129,
+        "width" : 0.48314208984375,
+        "x" : 0.4736121813456217,
+        "y" : 0.007679126880787037
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9930460611979167,
+        "width" : 0.48502798080444337,
+        "x" : 0.46271230379740397,
+        "y" : 0.0069539388020833336
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9931448477285879,
+        "width" : 0.48379999796549483,
+        "x" : 0.4524901072184245,
+        "y" : 0.006855152271412037
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9912542272497107,
+        "width" : 0.4858828226725261,
+        "x" : 0.4421536445617676,
+        "y" : 0.008745772750289352
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9934889051649306,
+        "width" : 0.49131358464558933,
+        "x" : 0.42928512891133613,
+        "y" : 0.006511094835069444
+      },
+      "confidence" : 0.99,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.366666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9959291811342592,
+        "width" : 0.4900775591532389,
+        "x" : 0.41599335670471194,
+        "y" : 0.004070818865740741
+      },
+      "confidence" : 0.989,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.999725341796875,
+        "width" : 0.4870298385620117,
+        "x" : 0.4013556162516276,
+        "y" : 0.000274658203125
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9988295943648727,
+        "width" : 0.48459644317626965,
+        "x" : 0.3842242558797199,
+        "y" : 0
+      },
+      "confidence" : 0.977,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9989948413990162,
+        "width" : 0.480714480082194,
+        "x" : 0.36610368092854817,
+        "y" : 0.0010051586009837963
+      },
+      "confidence" : 0.975,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9948593704788773,
+        "width" : 0.4718294461568197,
+        "x" : 0.3447204748789469,
+        "y" : 0.005140629521122685
+      },
+      "confidence" : 0.971,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9881629096137152,
+        "width" : 0.4614863713582357,
+        "x" : 0.3330471356709798,
+        "y" : 0.011837090386284723
+      },
+      "confidence" : 0.969,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9881629096137152,
+        "width" : 0.4614863713582357,
+        "x" : 0.3330471356709798,
+        "y" : 0.011837090386284723
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9692719636140046,
+        "width" : 0.45533348719278977,
+        "x" : 0.3219412008921305,
+        "y" : 0
+      },
+      "confidence" : 0.973,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.633333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9668755425347222,
+        "width" : 0.4548703193664551,
+        "x" : 0.3087039788564046,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9662077727141205,
+        "width" : 0.4547568003336589,
+        "x" : 0.29416071573893227,
+        "y" : 0
+      },
+      "confidence" : 0.962,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9644773130063657,
+        "width" : 0.45505628585815433,
+        "x" : 0.27951865196228026,
+        "y" : 0
+      },
+      "confidence" : 0.961,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9648622866030092,
+        "width" : 0.45380020141601557,
+        "x" : 0.2673813819885254,
+        "y" : 0
+      },
+      "confidence" : 0.965,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9656306514033562,
+        "width" : 0.45672410329182944,
+        "x" : 0.25192111333211265,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9653553150318287,
+        "width" : 0.45893106460571287,
+        "x" : 0.23636433283487956,
+        "y" : 0
+      },
+      "confidence" : 0.975,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.833333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9583647551359954,
+        "width" : 0.4614460309346517,
+        "x" : 0.22175149917602538,
+        "y" : 0
+      },
+      "confidence" : 0.982,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.866666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9580904360170718,
+        "width" : 0.46439806620279944,
+        "x" : 0.21002343495686848,
+        "y" : 0
+      },
+      "confidence" : 0.983,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9530292652271412,
+        "width" : 0.46787646611531575,
+        "x" : 0.19723742802937824,
+        "y" : 0
+      },
+      "confidence" : 0.985,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9563203034577547,
+        "width" : 0.4741220792134603,
+        "x" : 0.18269821802775066,
+        "y" : 0
+      },
+      "confidence" : 0.986,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 10.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9553030508535879,
+        "width" : 0.4803150494893392,
+        "x" : 0.16579027175903321,
+        "y" : 0
+      },
+      "confidence" : 0.988,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9572220413773148,
+        "width" : 0.48555466334025066,
+        "x" : 0.15225369135538738,
+        "y" : 0
+      },
+      "confidence" : 0.987,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9933871439749459,
+        "width" : 0.5875318856548738,
+        "x" : 0.10164782172374202,
+        "y" : 0.006612856025054094
+      },
+      "confidence" : 0.64221305,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9933871439749459,
+        "width" : 0.5875318856548738,
+        "x" : 0.10164782172374202,
+        "y" : 0.006612856025054094
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9604557743778934,
+        "width" : 0.586150105794271,
+        "x" : 0.08336868286132801,
+        "y" : 0
+      },
+      "confidence" : 0.985,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.133333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9688096788194445,
+        "width" : 0.583563741048177,
+        "x" : 0.08131771087646485,
+        "y" : 0
+      },
+      "confidence" : 0.979,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.166666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9699390552662037,
+        "width" : 0.5893007278442383,
+        "x" : 0.06739918390909842,
+        "y" : 0
+      },
+      "confidence" : 0.979,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9730709499782986,
+        "width" : 0.5922670364379883,
+        "x" : 0.05960760116577148,
+        "y" : 0
+      },
+      "confidence" : 0.97,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9661667435257523,
+        "width" : 0.5934284210205079,
+        "x" : 0.05392233530680338,
+        "y" : 0
+      },
+      "confidence" : 0.959,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9682465729890046,
+        "width" : 0.5967011769612631,
+        "x" : 0.042814572652180874,
+        "y" : 0
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9715650770399303,
+        "width" : 0.6002361297607423,
+        "x" : 0.03218568166097005,
+        "y" : 0
+      },
+      "confidence" : 0.961,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9729279694733797,
+        "width" : 0.6037554423014323,
+        "x" : 0.022872098286946616,
+        "y" : 0
+      },
+      "confidence" : 0.952,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.366666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9703742133246528,
+        "width" : 0.6098040898640951,
+        "x" : 0.01091299057006836,
+        "y" : 0
+      },
+      "confidence" : 0.951,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.4
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9660050003616898,
+        "width" : 0.6143482526143392,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.941,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.433333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9624728732638889,
+        "width" : 0.6074612299601237,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.932,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.466666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9623883282696759,
+        "width" : 0.6000830968221028,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.929,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.5
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9595878318504051,
+        "width" : 0.5925217946370442,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.917,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.533333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9966294717559272,
+        "width" : 0.5791817156975888,
+        "x" : 0,
+        "y" : 0.0017293517971009149
+      },
+      "confidence" : 0.66212726,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.566666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9966294717559272,
+        "width" : 0.5791817156975888,
+        "x" : 0,
+        "y" : 0.0017293517971009149
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.6
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9770595974392361,
+        "width" : 0.5674431482950847,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.967,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.633333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.980539392541956,
+        "width" : 0.554012393951416,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.969,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.666666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9805286548755787,
+        "width" : 0.5428618431091309,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.961,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.7
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9801812065972222,
+        "width" : 0.5294164975484212,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.96,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.733333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9816722728587963,
+        "width" : 0.5114250500996907,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.957,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.766666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9833728931568287,
+        "width" : 0.49496405919392905,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.953,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.8
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9837962962962963,
+        "width" : 0.47777983347574865,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.948,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.833333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9805780481409143,
+        "width" : 0.4601462046305338,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.934,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.866666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9778356481481482,
+        "width" : 0.44407234191894535,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.936,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.9
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.976044605396412,
+        "width" : 0.43255265553792316,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.935,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.933333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9772606743706598,
+        "width" : 0.42138309478759767,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.919,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 11.966666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9778541847511572,
+        "width" : 0.40904223124186195,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.901,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9805730749059607,
+        "width" : 0.3988285700480143,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.887,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.033333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.999332664480083,
+        "width" : 0.32679918981072476,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 0.571569,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.066666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9993326644800831,
+        "width" : 0.32679918981072476,
+        "x" : 0,
+        "y" : 0
+      },
+      "confidence" : 1,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.1
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9677746808087384,
+        "width" : 0.30962225596110027,
+        "x" : 0.004133288065592448,
+        "y" : 0.002786028826678241
+      },
+      "confidence" : 0.865,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.133333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9459238123010707,
+        "width" : 0.2987953186035156,
+        "x" : 0.007616933186848958,
+        "y" : 0.009921829788773148
+      },
+      "confidence" : 0.842,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.166666666666666
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9273362336335359,
+        "width" : 0.29104569753011067,
+        "x" : 0.010213152567545573,
+        "y" : 0.018022212275752316
+      },
+      "confidence" : 0.843,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.2
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9136484216760706,
+        "width" : 0.28500658671061196,
+        "x" : 0.012120882670084635,
+        "y" : 0.024330873842592592
+      },
+      "confidence" : 0.821,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.233333333333333
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.9038425021701388,
+        "width" : 0.28052635192871095,
+        "x" : 0.01228783925374349,
+        "y" : 0.02839027687355324
+      },
+      "confidence" : 0.823,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.266666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8988662154586227,
+        "width" : 0.2772263526916505,
+        "x" : 0.012069988250732303,
+        "y" : 0.030829535590277776
+      },
+      "confidence" : 0.828,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.3
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.8954975269458912,
+        "width" : 0.2743999481201172,
+        "x" : 0.012415822347005208,
+        "y" : 0.03346715856481482
+      },
+      "confidence" : 0.823,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.333333333333334
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.893398200141059,
+        "width" : 0.2720335960388184,
+        "x" : 0.012325636545817057,
+        "y" : 0.0358123779296875
+      },
+      "confidence" : 0.825,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.366666666666667
+    },
+    {
+      "boundingBox" : {
+        "height" : 0.891939064308449,
+        "width" : 0.2701305071512858,
+        "x" : 0.011961650848388673,
+        "y" : 0.03583362720630787
+      },
+      "confidence" : 0.83,
+      "state" : "tracking",
+      "subjectID" : 1,
+      "time" : 12.4
+    }
+  ],
+  "version" : 1
+}
