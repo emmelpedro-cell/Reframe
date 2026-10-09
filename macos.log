@@ -1,0 +1,566 @@
+== macos Fri Oct  9 09:38:55 UTC 2026 ==
+swift-driver version: 1.90.11.1 Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+Target: arm64-apple-macosx14.0
+Xcode 15.4
+Build version 15F31d
+ProductName:		macOS
+ProductVersion:		14.8.9
+BuildVersion:		23J631
+arm64
+== swift-test.log ==
+Building for debugging...
+[0/13] Write sources
+[0/13] Write reframe-entitlement.plist
+[0/13] Write sources
+[6/13] Copying Fixtures
+[7/13] Write swift-version-76B232A4806BA581.txt
+[9/21] Emitting module ReframeCore
+[10/24] Compiling ReframeCore ReframeEngine.swift
+[11/24] Compiling ReframeCore CriticallyDampedSpring.swift
+[12/24] Compiling ReframeCore OneEuroFilter.swift
+[13/24] Compiling ReframeCore ReframeSettings.swift
+[14/24] Compiling ReframeCore TrackingPoint.swift
+[15/24] Compiling ReframeCore ReframePipeline.swift
+[16/24] Compiling ReframeCore CompositionRules.swift
+[17/24] Compiling ReframeCore ReframeMetrics.swift
+[18/24] Compiling ReframeCore CropGeometry.swift
+[19/24] Compiling ReframeCore CropPoint.swift
+[20/47] Emitting module TrackingKit
+[21/47] Compiling TrackingKit RenderPlanning.swift
+[22/47] Compiling TrackingKit VerticalRenderer.swift
+[23/47] Compiling TrackingKit Observation.swift
+[24/47] Compiling TrackingKit SubjectSelector.swift
+[25/47] Compiling TrackingKit SubjectTracker.swift
+[26/47] Compiling TrackingKit TrackingSettings.swift
+[27/47] Compiling ReframeCoreTests ABComparisonTests.swift
+[28/47] Compiling ReframeCoreTests ABScenarios.swift
+[29/47] Compiling ReframeCoreTests CropGeometryTests.swift
+[30/47] Compiling ReframeCoreTests GoldenData.swift
+[31/47] Compiling TrackingKit CommandLineOptions.swift
+[32/47] Compiling TrackingKit TrackingReport.swift
+[38/52] Emitting module ReframeCoreTests
+[43/56] Compiling ReframeCoreTests TestSupport.swift
+[44/56] Compiling TrackingKit PersonPreview.swift
+[45/56] Compiling TrackingKit TrackingPipeline.swift
+[46/56] Compiling TrackingKit VideoFrameReader.swift
+[47/56] Compiling TrackingKit VisionComponents.swift
+[48/66] Emitting module ReframeCLI
+[49/66] Compiling ReframeCLI main.swift
+[49/66] Write Objects.LinkFileList
+[51/66] Compiling ReframeCoreTests ReframeEngineTests.swift
+[52/66] Compiling ReframeCoreTests ReframePipelineTests.swift
+[53/66] Compiling ReframeCoreTests SpringTests.swift
+[54/66] Linking reframe
+[55/66] Applying reframe
+[57/66] Emitting module TrackingKitTests
+[58/66] Compiling TrackingKitTests SubjectSelectorTests.swift
+[59/66] Compiling TrackingKitTests SubjectTrackerTests.swift
+[60/66] Compiling TrackingKitTests TimestampTests.swift
+[61/69] Compiling TrackingKitTests CommandLineOptionsTests.swift
+[62/69] Compiling TrackingKitTests CoordinateTests.swift
+[63/69] Compiling TrackingKitTests RenderIntegrationTests.swift
+[64/69] Compiling TrackingKitTests RenderPlanningTests.swift
+[65/69] Compiling TrackingKitTests TrackingReportTests.swift
+[66/69] Compiling TrackingKitTests VisionIntegrationTests.swift
+[67/69] Compiling TrackingKitTests resource_bundle_accessor.swift
+[67/69] Write Objects.LinkFileList
+[68/69] Linking ReframeCorePackageTests
+Build complete! (17.40s)
+Test Suite 'All tests' started at 2026-10-09 09:37:34.951.
+Test Suite 'ReframeCorePackageTests.xctest' started at 2026-10-09 09:37:34.953.
+Test Suite 'ABComparisonTests' started at 2026-10-09 09:37:34.953.
+Test Case '-[ReframeCoreTests.ABComparisonTests testSideBySideComparisonPrintsMetricsAndBothPipelinesStayValid]' started.
+Test Case '-[ReframeCoreTests.ABComparisonTests testSideBySideComparisonPrintsMetricsAndBothPipelinesStayValid]' passed (0.298 seconds).
+Test Suite 'ABComparisonTests' passed at 2026-10-09 09:37:35.251.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.298 (0.298) seconds
+Test Suite 'CommandLineOptionsTests' started at 2026-10-09 09:37:35.251.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testAllOptionsAndAnyOrder]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testAllOptionsAndAnyOrder]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testErrors]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testErrors]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testMinimalTrackCommand]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testMinimalTrackCommand]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSettingsMapping]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSettingsMapping]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSubjectAtIsParsedIntoSettings]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSubjectAtIsParsedIntoSettings]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSubjectAtRejectsInvalidValues]' started.
+Test Case '-[TrackingKitTests.CommandLineOptionsTests testSubjectAtRejectsInvalidValues]' passed (0.000 seconds).
+Test Suite 'CommandLineOptionsTests' passed at 2026-10-09 09:37:35.253.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'CoordinateTests' started at 2026-10-09 09:37:35.253.
+Test Case '-[TrackingKitTests.CoordinateTests testAreaRatioAndDistance]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testAreaRatioAndDistance]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testClampedToUnit]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testClampedToUnit]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testIdentityMapping]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testIdentityMapping]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testInvalidMappingsAreRejected]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testInvalidMappingsAreRejected]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testIoU]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testIoU]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testIPhonePortraitRotatedClockwise]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testIPhonePortraitRotatedClockwise]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testPersonOnTheLeftOfAPortraitScreen]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testPersonOnTheLeftOfAPortraitScreen]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testRotated180]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testRotated180]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testRotated90CounterClockwise]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testRotated90CounterClockwise]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testRoundTripForAllTransforms]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testRoundTripForAllTransforms]' passed (0.015 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testVisionBottomLeftToTopLeft]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testVisionBottomLeftToTopLeft]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testVisionConversionIsItsOwnInverse]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testVisionConversionIsItsOwnInverse]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.CoordinateTests testWideRawBoxBecomesTallWhenVideoIsRotated]' started.
+Test Case '-[TrackingKitTests.CoordinateTests testWideRawBoxBecomesTallWhenVideoIsRotated]' passed (0.000 seconds).
+Test Suite 'CoordinateTests' passed at 2026-10-09 09:37:35.271.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.018 (0.018) seconds
+Test Suite 'CropGeometryTests' started at 2026-10-09 09:37:35.271.
+Test Case '-[ReframeCoreTests.CropGeometryTests testCropWidth16x9To9x16]' started.
+Test Case '-[ReframeCoreTests.CropGeometryTests testCropWidth16x9To9x16]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.CropGeometryTests testCropWidthOtherOutputs]' started.
+Test Case '-[ReframeCoreTests.CropGeometryTests testCropWidthOtherOutputs]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.CropGeometryTests testIndependentOfResolution]' started.
+Test Case '-[ReframeCoreTests.CropGeometryTests testIndependentOfResolution]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.CropGeometryTests testOutputWiderThanSourceIsCappedAtFullWidth]' started.
+Test Case '-[ReframeCoreTests.CropGeometryTests testOutputWiderThanSourceIsCappedAtFullWidth]' passed (0.000 seconds).
+Test Suite 'CropGeometryTests' passed at 2026-10-09 09:37:35.272.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'GoldenParityTests' started at 2026-10-09 09:37:35.272.
+Test Case '-[ReframeCoreTests.GoldenParityTests testBoxWiderThanCropMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testBoxWiderThanCropMatchesPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testEdgesMatchPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testEdgesMatchPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testJumpMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testJumpMatchesPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testLookAheadMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testLookAheadMatchesPython]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testLossMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testLossMatchesPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testLowMaxSpeedMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testLowMaxSpeedMatchesPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testMetricsMatchPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testMetricsMatchPython]' passed (0.014 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testSineAt30And60FpsMatchPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testSineAt30And60FpsMatchPython]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testStationaryJitterMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testStationaryJitterMatchesPython]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testWalkMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testWalkMatchesPython]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.GoldenParityTests testZeroSmoothingMatchesPython]' started.
+Test Case '-[ReframeCoreTests.GoldenParityTests testZeroSmoothingMatchesPython]' passed (0.000 seconds).
+Test Suite 'GoldenParityTests' passed at 2026-10-09 09:37:35.295.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.023 (0.023) seconds
+Test Suite 'MetricsTests' started at 2026-10-09 09:37:35.295.
+Test Case '-[ReframeCoreTests.MetricsTests testConstantVelocityRamp]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testConstantVelocityRamp]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.MetricsTests testDirectionChangesAreCounted]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testDirectionChangesAreCounted]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.MetricsTests testLookAheadReducesApparentLag]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testLookAheadReducesApparentLag]' passed (0.010 seconds).
+Test Case '-[ReframeCoreTests.MetricsTests testPerfectlyCenteredStationaryCrop]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testPerfectlyCenteredStationaryCrop]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.MetricsTests testSubjectOutsideCropLowersInsideRatio]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testSubjectOutsideCropLowersInsideRatio]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.MetricsTests testTooFewSamplesReturnsZero]' started.
+Test Case '-[ReframeCoreTests.MetricsTests testTooFewSamplesReturnsZero]' passed (0.000 seconds).
+Test Suite 'MetricsTests' passed at 2026-10-09 09:37:35.308.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.012 (0.012) seconds
+Test Suite 'OneEuroFilterTests' started at 2026-10-09 09:37:35.308.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testConstantSignalStaysConstant]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testConstantSignalStaysConstant]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testExtremeValidParametersStayFiniteAndInsideTheInputRange]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testExtremeValidParametersStayFiniteAndInsideTheInputRange]' passed (0.004 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFastRampWithBetaLagsLessThanWithoutBeta]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFastRampWithBetaLagsLessThanWithoutBeta]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFiltersHaveNoSharedStateAndAreDeterministic]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFiltersHaveNoSharedStateAndAreDeterministic]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFirstSampleIsReturnedUnchangedAndInitializesTheFilter]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testFirstSampleIsReturnedUnchangedAndInitializesTheFilter]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testInvalidParametersFallBackToDefaults]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testInvalidParametersFallBackToDefaults]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testIrregularTimestampsMatchIndependentReference]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testIrregularTimestampsMatchIndependentReference]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testNonFiniteInputsAreIgnored]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testNonFiniteInputsAreIgnored]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testResetClearsStateBetweenTrajectories]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testResetClearsStateBetweenTrajectories]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testResetWithValueSeedsLikeAFirstSample]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testResetWithValueSeedsLikeAFirstSample]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testSlowRampLagIsBoundedByMinCutoffTimeConstant]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testSlowRampLagIsBoundedByMinCutoffTimeConstant]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testSmallJitterIsAttenuated]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testSmallJitterIsAttenuated]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testStepChangeNeverOvershootsAndConverges]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testStepChangeNeverOvershootsAndConverges]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testThirtyAndSixtyFpsAgreeOnASmoothSignal]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testThirtyAndSixtyFpsAgreeOnASmoothSignal]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testZeroAndNegativeDeltaTimeAreIgnoredWithoutChangingState]' started.
+Test Case '-[ReframeCoreTests.OneEuroFilterTests testZeroAndNegativeDeltaTimeAreIgnoredWithoutChangingState]' passed (0.000 seconds).
+Test Suite 'OneEuroFilterTests' passed at 2026-10-09 09:37:35.316.
+	 Executed 15 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+Test Suite 'OneEuroParityTests' started at 2026-10-09 09:37:35.316.
+Test Case '-[ReframeCoreTests.OneEuroParityTests testABMetricsMatchPython]' started.
+Test Case '-[ReframeCoreTests.OneEuroParityTests testABMetricsMatchPython]' passed (0.242 seconds).
+Test Case '-[ReframeCoreTests.OneEuroParityTests testABTrajectoriesMatchPython]' started.
+Test Case '-[ReframeCoreTests.OneEuroParityTests testABTrajectoriesMatchPython]' passed (0.239 seconds).
+Test Case '-[ReframeCoreTests.OneEuroParityTests testFilterOutputsMatchPython]' started.
+Test Case '-[ReframeCoreTests.OneEuroParityTests testFilterOutputsMatchPython]' passed (0.001 seconds).
+Test Suite 'OneEuroParityTests' passed at 2026-10-09 09:37:35.797.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.481 (0.481) seconds
+Test Suite 'ReframeEngineTests' started at 2026-10-09 09:37:35.797.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testBoxWiderThanCropStaysStableAndValid]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testBoxWiderThanCropStaysStableAndValid]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testCropNeverLeavesFrameWithRandomInput]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testCropNeverLeavesFrameWithRandomInput]' passed (0.144 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testDeterministicOutput]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testDeterministicOutput]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testEmptyInputAndTimeRange]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testEmptyInputAndTimeRange]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testEngineWorksForOtherOutputAspects]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testEngineWorksForOtherOutputAspects]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLookAheadZeroHasNoAnticipation]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLookAheadZeroHasNoAnticipation]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLostTrackingHoldsThenRecovers]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLostTrackingHoldsThenRecovers]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLowConfidencePointsCountAsLost]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLowConfidencePointsCountAsLost]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLowMaxSpeedIsRespected]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testLowMaxSpeedIsRespected]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testMarginKeepsSubjectBoxInsideCropOnceSettled]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testMarginKeepsSubjectBoxInsideCropOnceSettled]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testStationarySubjectProducesNoMicroMovements]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testStationarySubjectProducesNoMicroMovements]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testSubjectAtFarLeftAndFarRight]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testSubjectAtFarLeftAndFarRight]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testSuddenJumpDoesNotTeleportTheCrop]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testSuddenJumpDoesNotTeleportTheCrop]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testThirtyAndSixtyFpsAreEquivalent]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testThirtyAndSixtyFpsAreEquivalent]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testWalkingSubjectIsFollowedSmoothly]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testWalkingSubjectIsFollowedSmoothly]' passed (0.006 seconds).
+Test Case '-[ReframeCoreTests.ReframeEngineTests testZeroSmoothingTracksTargetImmediately]' started.
+Test Case '-[ReframeCoreTests.ReframeEngineTests testZeroSmoothingTracksTargetImmediately]' passed (0.001 seconds).
+Test Suite 'ReframeEngineTests' passed at 2026-10-09 09:37:35.960.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.162 (0.162) seconds
+Test Suite 'ReframePipelineTests' started at 2026-10-09 09:37:35.960.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testConstantSubjectGivesTheSameCropWithAndWithoutOneEuro]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testConstantSubjectGivesTheSameCropWithAndWithoutOneEuro]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPipelineIsBitIdenticalToTheM1Engine]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPipelineIsBitIdenticalToTheM1Engine]' passed (0.008 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPipelineStillMatchesTheM1GoldenData]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPipelineStillMatchesTheM1GoldenData]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPrefilterReturnsThePointsUntouched]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testDisabledPrefilterReturnsThePointsUntouched]' passed (0.002 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPipelineIsThePrefilterFollowedByTheSameEngine]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPipelineIsThePrefilterFollowedByTheSameEngine]' passed (0.003 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPipelineNeverLeavesTheFrameOnRandomInput]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPipelineNeverLeavesTheFrameOnRandomInput]' passed (0.079 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPrefilterKeepsTimesConfidencesCountAndLeavesLowConfidencePointsAlone]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testEnabledPrefilterKeepsTimesConfidencesCountAndLeavesLowConfidencePointsAlone]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testExtremeOneEuroParametersKeepTheCropValid]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testExtremeOneEuroParametersKeepTheCropValid]' passed (0.004 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testGapLargerThanMaxInterpolationGapResetsTheFilter]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testGapLargerThanMaxInterpolationGapResetsTheFilter]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testInputOrderDoesNotMatter]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testInputOrderDoesNotMatter]' passed (0.003 seconds).
+Test Case '-[ReframeCoreTests.ReframePipelineTests testOneEuroIsDisabledByDefault]' started.
+Test Case '-[ReframeCoreTests.ReframePipelineTests testOneEuroIsDisabledByDefault]' passed (0.000 seconds).
+Test Suite 'ReframePipelineTests' passed at 2026-10-09 09:37:36.060.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.100 (0.100) seconds
+Test Suite 'RenderIntegrationTests' started at 2026-10-09 09:37:36.060.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testAudioIsCopiedWithoutReencoding]' started.
+IOServiceMatchingfailed for: AppleM2ScalerCSCDriver
+Test Case '-[TrackingKitTests.RenderIntegrationTests testAudioIsCopiedWithoutReencoding]' passed (3.934 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMaxSecondsLimitsTheRender]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMaxSecondsLimitsTheRender]' passed (2.165 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMismatchedTrackingIsRejected]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMismatchedTrackingIsRejected]' passed (2.235 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMovContainerIsSupported]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testMovContainerIsSupported]' passed (4.757 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOneEuroOptionRendersAValidVideo]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOneEuroOptionRendersAValidVideo]' passed (5.376 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOtherAspectRatios]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOtherAspectRatios]' passed (10.466 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOutputHeightScalesTheWholeFrameBeforeCropping]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testOutputHeightScalesTheWholeFrameBeforeCropping]' passed (3.075 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testPortraitSourceIsRenderedUpright]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testPortraitSourceIsRenderedUpright]' passed (10.260 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testTrackingWithoutAnyPersonStillRendersACenteredCrop]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testTrackingWithoutAnyPersonStillRendersACenteredCrop]' passed (0.969 seconds).
+Test Case '-[TrackingKitTests.RenderIntegrationTests testVerticalRenderKeepsSubjectInViewForEveryOrientation]' started.
+Test Case '-[TrackingKitTests.RenderIntegrationTests testVerticalRenderKeepsSubjectInViewForEveryOrientation]' passed (20.102 seconds).
+Test Suite 'RenderIntegrationTests' passed at 2026-10-09 09:38:39.400.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 63.338 (63.340) seconds
+Test Suite 'RenderPlanningTests' started at 2026-10-09 09:38:39.400.
+Test Case '-[TrackingKitTests.RenderPlanningTests testCropXAlwaysInsideTheFrame]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testCropXAlwaysInsideTheFrame]' passed (0.005 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testEngineCenterMapsToPixelsWithoutExtraClamp]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testEngineCenterMapsToPixelsWithoutExtraClamp]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometry4KKeepsFullResolution]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometry4KKeepsFullResolution]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryHorizontalToVertical1080p]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryHorizontalToVertical1080p]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryOddOutputHeightBecomesEven]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryOddOutputHeightBecomesEven]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryOtherAspects]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryOtherAspects]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryRejectsInvalidInput]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryRejectsInvalidInput]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryVerticalSourceUsesWholeFrame]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryVerticalSourceUsesWholeFrame]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryWithOutputHeightScalesFirst]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testGeometryWithOutputHeightScalesFirst]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testOrientationFromStandardIPhoneTransforms]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testOrientationFromStandardIPhoneTransforms]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testOrientationIgnoresTranslation]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testOrientationIgnoresTranslation]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testParseAspect]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testParseAspect]' passed (0.005 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testPresetDefaultsToSuave]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testPresetDefaultsToSuave]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testPresetsMatchTheComparedVariants]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testPresetsMatchTheComparedVariants]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterEmptyInputs]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterEmptyInputs]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterFlag]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterFlag]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterGoesToCenterAndBack]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterGoesToCenterAndBack]' passed (0.002 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterIsSmoothAndStaysInsideTheRange]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterIsSmoothAndStaysInsideTheRange]' passed (0.002 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterNeverLostLeavesTrajectoryUntouched]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRecenterNeverLostLeavesTrajectoryUntouched]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsAll]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsAll]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsErrors]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsErrors]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsMinimal]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testRenderOptionsMinimal]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineClampsOutsideRange]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineClampsOutsideRange]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineEmptyAndInvalid]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineEmptyAndInvalid]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineHandlesUnsortedInputAndMatchesEngineAtSamples]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineHandlesUnsortedInputAndMatchesEngineAtSamples]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineInterpolatesLinearly]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testTimelineInterpolatesLinearly]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.RenderPlanningTests testUnsupportedTransformsAreRejected]' started.
+Test Case '-[TrackingKitTests.RenderPlanningTests testUnsupportedTransformsAreRejected]' passed (0.000 seconds).
+Test Suite 'RenderPlanningTests' passed at 2026-10-09 09:38:39.423.
+	 Executed 27 tests, with 0 failures (0 unexpected) in 0.020 (0.022) seconds
+Test Suite 'SpringTests' started at 2026-10-09 09:38:39.423.
+Test Case '-[ReframeCoreTests.SpringTests testClosedFormValueAtSmoothingTime]' started.
+Test Case '-[ReframeCoreTests.SpringTests testClosedFormValueAtSmoothingTime]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.SpringTests testNeverOvershoots]' started.
+Test Case '-[ReframeCoreTests.SpringTests testNeverOvershoots]' passed (0.001 seconds).
+Test Case '-[ReframeCoreTests.SpringTests testStepSizeInvariance]' started.
+Test Case '-[ReframeCoreTests.SpringTests testStepSizeInvariance]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.SpringTests testZeroDeltaTimeKeepsState]' started.
+Test Case '-[ReframeCoreTests.SpringTests testZeroDeltaTimeKeepsState]' passed (0.000 seconds).
+Test Case '-[ReframeCoreTests.SpringTests testZeroSmoothingIsImmediate]' started.
+Test Case '-[ReframeCoreTests.SpringTests testZeroSmoothingIsImmediate]' passed (0.000 seconds).
+Test Suite 'SpringTests' passed at 2026-10-09 09:38:39.424.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'SubjectSelectorTests' started at 2026-10-09 09:38:39.424.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBestMatchPicksHighestIoUAndRespectsThreshold]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBestMatchPicksHighestIoUAndRespectsThreshold]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBestMatchProximityForRecovery]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBestMatchProximityForRecovery]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBiggerBoxScoresHigher]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBiggerBoxScoresHigher]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBiggerPersonDoesNotBeatIncumbentByMargin]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testBiggerPersonDoesNotBeatIncumbentByMargin]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testCentralBoxScoresHigherThanEdgeBoxOfSameSize]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testCentralBoxScoresHigherThanEdgeBoxOfSameSize]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testClearlyBetterPersonIsAChallenger]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testClearlyBetterPersonIsAChallenger]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testIncumbentItselfIsNeverItsOwnChallenger]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testIncumbentItselfIsNeverItsOwnChallenger]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPersistenceRaisesScoreOfTheIncumbent]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPersistenceRaisesScoreOfTheIncumbent]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialIsOrderIndependent]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialIsOrderIndependent]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialPrefersLargeCentralPerson]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialPrefersLargeCentralPerson]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialWithNothingUsable]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickInitialWithNothingUsable]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearAcceptsCloseMissesAndRejectsFarOnes]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearAcceptsCloseMissesAndRejectsFarOnes]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearChoosesTheBoxContainingThePoint]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearChoosesTheBoxContainingThePoint]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearIgnoresUnusableDetections]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearIgnoresUnusableDetections]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearWithOverlapPicksTheClosestCenter]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testPickNearWithOverlapPicksTheClosestCenter]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectSelectorTests testUsableFiltersLowConfidenceAndInvalid]' started.
+Test Case '-[TrackingKitTests.SubjectSelectorTests testUsableFiltersLowConfidenceAndInvalid]' passed (0.001 seconds).
+Test Suite 'SubjectSelectorTests' passed at 2026-10-09 09:38:39.430.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'SubjectTrackerTests' started at 2026-10-09 09:38:39.430.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testAcquiringUntilSomeoneIsDetected]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testAcquiringUntilSomeoneIsDetected]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testBecomesLostAfterHoldDurationButKeepsIdentityAndBox]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testBecomesLostAfterHoldDurationButKeepsIdentityAndBox]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testBiggerPersonAloneNeverCausesASwitch]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testBiggerPersonAloneNeverCausesASwitch]' passed (0.003 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testChosenSubjectIsLockedAgainstSwitching]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testChosenSubjectIsLockedAgainstSwitching]' passed (0.004 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testCustomSettingsAreHonoured]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testCustomSettingsAreHonoured]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDetectionReanchorsTheTracker]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDetectionReanchorsTheTracker]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDeterministic]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDeterministic]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDoesNotSwitchToAnotherPersonDuringRecoveryWindow]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDoesNotSwitchToAnotherPersonDuringRecoveryWindow]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDriftingTrackerIsFollowedOnlyBrieflyBeforeRejection]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDriftingTrackerIsFollowedOnlyBrieflyBeforeRejection]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDriftingTrackerIsRejectedWhenNoDetectionAgrees]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testDriftingTrackerIsRejectedWhenNoDetectionAgrees]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testFollowsTrackerBetweenDetections]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testFollowsTrackerBetweenDetections]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testGarbageInputNeverProducesInvalidOutput]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testGarbageInputNeverProducesInvalidOutput]' passed (0.010 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintOnlyAppliesToTheFirstChoice]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintOnlyAppliesToTheFirstChoice]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintPicksTheTouchedPersonEvenIfAnotherScoresHigher]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintPicksTheTouchedPersonEvenIfAnotherScoresHigher]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintWaitsWhileNobodyIsDetected]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintWaitsWhileNobodyIsDetected]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintWithNobodyNearFallsBackToAutomaticChoice]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHintWithNobodyNearFallsBackToAutomaticChoice]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHoldsLastValidBoxWithoutJumping]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testHoldsLastValidBoxWithoutJumping]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testIdentityStableWithJitteringTracker]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testIdentityStableWithJitteringTracker]' passed (0.002 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testLowConfidenceTrackerCountsAsLost]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testLowConfidenceTrackerCountsAsLost]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testMomentaryChallengerNeverTakesOver]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testMomentaryChallengerNeverTakesOver]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testOneMissedDetectionDoesNotRejectTheTracker]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testOneMissedDetectionDoesNotRejectTheTracker]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testPicksSomeoneElseOnlyAfterRecoveryWindow]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testPicksSomeoneElseOnlyAfterRecoveryWindow]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRecoversSamePersonByOverlap]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRecoversSamePersonByOverlap]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRecoversSamePersonByProximityWithoutOverlap]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRecoversSamePersonByProximityWithoutOverlap]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRejectedTrackerStaysIgnoredUntilDetectionFindsSubjectAgain]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testRejectedTrackerStaysIgnoredUntilDetectionFindsSubjectAgain]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testSwitchesOnlyAfterSustainedDwell]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testSwitchesOnlyAfterSustainedDwell]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerCanRecoverByItself]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerCanRecoverByItself]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerConfirmedByDetectionsIsNeverRejected]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerConfirmedByDetectionsIsNeverRejected]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerJumpIsRejected]' started.
+Test Case '-[TrackingKitTests.SubjectTrackerTests testTrackerJumpIsRejected]' passed (0.000 seconds).
+Test Suite 'SubjectTrackerTests' passed at 2026-10-09 09:38:39.457.
+	 Executed 29 tests, with 0 failures (0 unexpected) in 0.026 (0.027) seconds
+Test Suite 'TimestampTests' started at 2026-10-09 09:38:39.457.
+Test Case '-[TrackingKitTests.TimestampTests testDuplicatesAndBackwardsAreDropped]' started.
+Test Case '-[TrackingKitTests.TimestampTests testDuplicatesAndBackwardsAreDropped]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testEstimatedFPS]' started.
+Test Case '-[TrackingKitTests.TimestampTests testEstimatedFPS]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testFirstTimestampBecomesZero]' started.
+Test Case '-[TrackingKitTests.TimestampTests testFirstTimestampBecomesZero]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testInvalidIntervalFallsBack]' started.
+Test Case '-[TrackingKitTests.TimestampTests testInvalidIntervalFallsBack]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testNegativeOrZeroStartIsRebased]' started.
+Test Case '-[TrackingKitTests.TimestampTests testNegativeOrZeroStartIsRebased]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testNonFiniteIsDropped]' started.
+Test Case '-[TrackingKitTests.TimestampTests testNonFiniteIsDropped]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testOutputIsStrictlyIncreasing]' started.
+Test Case '-[TrackingKitTests.TimestampTests testOutputIsStrictlyIncreasing]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionEveryHalfSecondAt30fps]' started.
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionEveryHalfSecondAt30fps]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionFirstCallAndForce]' started.
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionFirstCallAndForce]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionIsConfigurableNotHardcoded]' started.
+Test Case '-[TrackingKitTests.TimestampTests testRedetectionIsConfigurableNotHardcoded]' passed (0.000 seconds).
+Test Suite 'TimestampTests' passed at 2026-10-09 09:38:39.459.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'TrackingReportTests' started at 2026-10-09 09:38:39.459.
+Test Case '-[TrackingKitTests.TrackingReportTests testFeedsTheUnmodifiedReframeEngine]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testFeedsTheUnmodifiedReframeEngine]' passed (0.001 seconds).
+Test Case '-[TrackingKitTests.TrackingReportTests testJSONIsDeterministicAndHasExpectedShape]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testJSONIsDeterministicAndHasExpectedShape]' passed (0.002 seconds).
+Test Case '-[TrackingKitTests.TrackingReportTests testJSONRoundTrip]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testJSONRoundTrip]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TrackingReportTests testLostFramesAreIgnoredByTheEngine]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testLostFramesAreIgnoredByTheEngine]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TrackingReportTests testSubjectTrackConversion]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testSubjectTrackConversion]' passed (0.000 seconds).
+Test Case '-[TrackingKitTests.TrackingReportTests testSubjectTracksSplitByID]' started.
+Test Case '-[TrackingKitTests.TrackingReportTests testSubjectTracksSplitByID]' passed (0.000 seconds).
+Test Suite 'TrackingReportTests' passed at 2026-10-09 09:38:39.463.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'VisionIntegrationTests' started at 2026-10-09 09:38:39.463.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testDebugVideoIsWrittenForLandscape]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testDebugVideoIsWrittenForLandscape]' passed (2.045 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testDebugVideoKeepsPreferredTransformForPortrait]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testDebugVideoKeepsPreferredTransformForPortrait]' passed (2.351 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testLandscapePipelineFollowsMovingBlock]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testLandscapePipelineFollowsMovingBlock]' passed (1.735 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testMaxSecondsLimitsProcessing]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testMaxSecondsLimitsProcessing]' passed (0.721 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testPortraitPipelineProducesCoordinatesInVisualOrientation]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testPortraitPipelineProducesCoordinatesInVisualOrientation]' passed (1.833 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderDoesNotUpscaleBeyondNaturalWidth]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderDoesNotUpscaleBeyondNaturalWidth]' passed (0.003 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderLandscape]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderLandscape]' passed (0.339 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderReadsPreferredTransformOfPortraitVideo]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testReaderReadsPreferredTransformOfPortraitVideo]' passed (0.003 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testRealVisionHumanDetectorProducesValidTrack]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testRealVisionHumanDetectorProducesValidTrack]' passed (2.861 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testRedetectionIntervalIsConfigurable]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testRedetectionIntervalIsConfigurable]' passed (3.067 seconds).
+Test Case '-[TrackingKitTests.VisionIntegrationTests testSceneWithoutPeopleGivesValidEmptyTrack]' started.
+Test Case '-[TrackingKitTests.VisionIntegrationTests testSceneWithoutPeopleGivesValidEmptyTrack]' passed (0.607 seconds).
+Test Suite 'VisionIntegrationTests' passed at 2026-10-09 09:38:55.030.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 15.565 (15.567) seconds
+Test Suite 'ReframeCorePackageTests.xctest' passed at 2026-10-09 09:38:55.030.
+	 Executed 200 tests, with 0 failures (0 unexpected) in 80.065 (80.077) seconds
+Test Suite 'All tests' passed at 2026-10-09 09:38:55.030.
+	 Executed 200 tests, with 0 failures (0 unexpected) in 80.065 (80.079) seconds
+AB|stationaryJitter|baseline|raw|meanSubjectError=0.004854|meanSubjectErrorInCropWidths=0.015341|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=2.000000
+AB|stationaryJitter|oneEuro|raw|meanSubjectError=0.004854|meanSubjectErrorInCropWidths=0.015341|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=2.000000
+AB|stationaryJitter|baseline|truth|meanSubjectError=0.001331|meanSubjectErrorInCropWidths=0.004207|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=0.000000
+AB|stationaryJitter|oneEuro|truth|meanSubjectError=0.001331|meanSubjectErrorInCropWidths=0.004207|insideCropRatio=1.000000|maxSpeed=0.000000|maxAcceleration=0.000000|jerkRMS=0.000000|directionChanges=0.000000|apparentLag=0.000000
+AB|walkClean|baseline|raw|meanSubjectError=0.003774|meanSubjectErrorInCropWidths=0.011928|insideCropRatio=1.000000|maxSpeed=0.093347|maxAcceleration=0.720525|jerkRMS=1.045008|directionChanges=0.000000|apparentLag=0.100000
+AB|walkClean|oneEuro|raw|meanSubjectError=0.008912|meanSubjectErrorInCropWidths=0.028167|insideCropRatio=1.000000|maxSpeed=0.093820|maxAcceleration=0.724836|jerkRMS=1.051335|directionChanges=0.000000|apparentLag=0.200000
+AB|walkClean|baseline|truth|meanSubjectError=0.003774|meanSubjectErrorInCropWidths=0.011928|insideCropRatio=1.000000|maxSpeed=0.093347|maxAcceleration=0.720525|jerkRMS=1.045008|directionChanges=0.000000|apparentLag=0.100000
+AB|walkClean|oneEuro|truth|meanSubjectError=0.008912|meanSubjectErrorInCropWidths=0.028167|insideCropRatio=1.000000|maxSpeed=0.093820|maxAcceleration=0.724836|jerkRMS=1.051335|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisy|baseline|raw|meanSubjectError=0.007018|meanSubjectErrorInCropWidths=0.022181|insideCropRatio=1.000000|maxSpeed=0.095378|maxAcceleration=0.664679|jerkRMS=2.344094|directionChanges=0.000000|apparentLag=0.100000
+AB|walkNoisy|oneEuro|raw|meanSubjectError=0.009599|meanSubjectErrorInCropWidths=0.030339|insideCropRatio=1.000000|maxSpeed=0.093294|maxAcceleration=0.713987|jerkRMS=1.134667|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisy|baseline|truth|meanSubjectError=0.004855|meanSubjectErrorInCropWidths=0.015345|insideCropRatio=1.000000|maxSpeed=0.095378|maxAcceleration=0.664679|jerkRMS=2.344094|directionChanges=0.000000|apparentLag=0.100000
+AB|walkNoisy|oneEuro|truth|meanSubjectError=0.009477|meanSubjectErrorInCropWidths=0.029952|insideCropRatio=1.000000|maxSpeed=0.093294|maxAcceleration=0.713987|jerkRMS=1.134667|directionChanges=0.000000|apparentLag=0.200000
+AB|walkNoisyHeavy|baseline|raw|meanSubjectError=0.015621|meanSubjectErrorInCropWidths=0.049369|insideCropRatio=1.000000|maxSpeed=0.100863|maxAcceleration=0.755280|jerkRMS=6.652737|directionChanges=0.000000|apparentLag=0.033333
+AB|walkNoisyHeavy|oneEuro|raw|meanSubjectError=0.016545|meanSubjectErrorInCropWidths=0.052289|insideCropRatio=1.000000|maxSpeed=0.080377|maxAcceleration=0.767518|jerkRMS=2.038634|directionChanges=0.000000|apparentLag=0.133333
+AB|walkNoisyHeavy|baseline|truth|meanSubjectError=0.003649|meanSubjectErrorInCropWidths=0.011532|insideCropRatio=1.000000|maxSpeed=0.100863|maxAcceleration=0.755280|jerkRMS=6.652737|directionChanges=0.000000|apparentLag=0.066667
+AB|walkNoisyHeavy|oneEuro|truth|meanSubjectError=0.006989|meanSubjectErrorInCropWidths=0.022090|insideCropRatio=1.000000|maxSpeed=0.080377|maxAcceleration=0.767518|jerkRMS=2.038634|directionChanges=0.000000|apparentLag=0.166667
+AB|sineClean|baseline|raw|meanSubjectError=0.008196|meanSubjectErrorInCropWidths=0.025903|insideCropRatio=1.000000|maxSpeed=0.223921|maxAcceleration=1.426051|jerkRMS=1.872661|directionChanges=3.000000|apparentLag=0.033333
+AB|sineClean|oneEuro|raw|meanSubjectError=0.019308|meanSubjectErrorInCropWidths=0.061022|insideCropRatio=1.000000|maxSpeed=0.214242|maxAcceleration=1.174810|jerkRMS=1.784854|directionChanges=3.000000|apparentLag=0.133333
+AB|sineClean|baseline|truth|meanSubjectError=
+0.008196|meanSubjectErrorInCropWidths=0.025903|insideCropRatio=1.000000|maxSpeed=0.223921|maxAcceleration=1.426051|jerkRMS=1.872661|directionChanges=3.000000|apparentLag=0.033333
+AB|sineClean|oneEuro|truth|meanSubjectError=0.019308|meanSubjectErrorInCropWidths=0.061022|insideCropRatio=1.000000|maxSpeed=0.214242|maxAcceleration=1.174810|jerkRMS=1.784854|directionChanges=3.000000|apparentLag=0.133333
+AB|sineNoisy|baseline|raw|meanSubjectError=0.008886|meanSubjectErrorInCropWidths=0.028084|insideCropRatio=1.000000|maxSpeed=0.227890|maxAcceleration=1.535189|jerkRMS=2.843861|directionChanges=3.000000|apparentLag=0.033333
+AB|sineNoisy|oneEuro|raw|meanSubjectError=0.019054|meanSubjectErrorInCropWidths=0.060221|insideCropRatio=1.000000|maxSpeed=0.216324|maxAcceleration=1.247600|jerkRMS=1.882778|directionChanges=3.000000|apparentLag=0.133333
+AB|sineNoisy|baseline|truth|meanSubjectError=0.007818|meanSubjectErrorInCropWidths=0.024708|insideCropRatio=1.000000|maxSpeed=0.227890|maxAcceleration=1.535189|jerkRMS=2.843861|directionChanges=3.000000|apparentLag=0.033333
+AB|sineNoisy|oneEuro|truth|meanSubjectError=0.018699|meanSubjectErrorInCropWidths=0.059097|insideCropRatio=1.000000|maxSpeed=0.216324|maxAcceleration=1.247600|jerkRMS=1.882778|directionChanges=3.000000|apparentLag=0.133333
+AB|zigzagNoisy|baseline|raw|meanSubjectError=0.007611|meanSubjectErrorInCropWidths=0.024054|insideCropRatio=1.000000|maxSpeed=0.148289|maxAcceleration=0.840771|jerkRMS=2.772702|directionChanges=3.000000|apparentLag=0.033333
+AB|zigzagNoisy|oneEuro|raw|meanSubjectError=0.017333|meanSubjectErrorInCropWidths=0.054782|insideCropRatio=1.000000|maxSpeed=0.147064|maxAcceleration=0.856431|jerkRMS=1.959376|directionChanges=3.000000|apparentLag=0.133333
+AB|zigzagNoisy|baseline|truth|meanSubjectError=0.006144|meanSubjectErrorInCropWidths=0.019417|insideCropRatio=1.000000|maxSpeed=0.148289|maxAcceleration=0.840771|jerkRMS=2.772702|directionChanges=3.000000|apparentLag=0.033333
+AB|zigzagNoisy|oneEuro|truth|meanSubjectError=0.016961|meanSubjectErrorInCropWidths=0.053604|insideCropRatio=1.000000|maxSpeed=0.147064|maxAcceleration=0.856431|jerkRMS=1.959376|directionChanges=3.000000|apparentLag=0.133333
+AB|jump|baseline|raw|meanSubjectError=0.037723|meanSubjectErrorInCropWidths=0.119222|insideCropRatio=0.900000|maxSpeed=0.350000|maxAcceleration=5.839471|jerkRMS=16.003879|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|oneEuro|raw|meanSubjectError=0.038057|meanSubjectErrorInCropWidths=0.120279|insideCropRatio=0.906667|maxSpeed=0.350000|maxAcceleration=4.829047|jerkRMS=12.235294|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|baseline|truth|meanSubjectError=0.037723|meanSubjectErrorInCropWidths=0.119222|insideCropRatio=0.900000|maxSpeed=0.350000|maxAcceleration=5.839471|jerkRMS=16.003879|directionChanges=0.000000|apparentLag=0.200000
+AB|jump|oneEuro|truth|meanSubjectError=0.038057|meanSubjectErrorInCropWidths=0.120279|insideCropRatio=0.906667|maxSpeed=0.350000|maxAcceleration=4.829047|jerkRMS=12.235294|directionChanges=0.000000|apparentLag=0.200000
+AB|loss|baseline|raw|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|oneEuro|raw|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|baseline|truth|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
+AB|loss|oneEuro|truth|meanSubjectError=0.006227|meanSubjectErrorInCropWidths=0.019681|insideCropRatio=1.000000|maxSpeed=0.326452|maxAcceleration=2.919736|jerkRMS=4.871843|directionChanges=0.000000|apparentLag=0.000000
