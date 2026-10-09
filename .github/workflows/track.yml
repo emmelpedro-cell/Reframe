@@ -15,6 +15,10 @@ on:
           - padrao
           - oneeuro
           - rapido
+      subject_at:
+        description: 'Opcional: x,y (0 a 1) da pessoa a seguir no primeiro quadro. Ex.: 0.75,0.60'
+        required: false
+        default: ''
       aspect:
         description: 'Formato da saida'
         type: choice
@@ -52,6 +56,7 @@ jobs:
           TAG: ${{ inputs.release_tag }}
           PRESET: ${{ inputs.preset }}
           ASPECT: ${{ inputs.aspect }}
+          SUBJECT_AT: ${{ inputs.subject_at }}
         run: bash Packages/ReframeCore/Scripts/ci-run.sh
       - name: Publicar
         if: always()
